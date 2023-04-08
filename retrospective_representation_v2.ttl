@@ -1,0 +1,2796 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ep-plan: <https://w3id.org/ep-plan#> .
+@prefix exact2: <http://www.owl-ontologies.com/Ontology1184060740.owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prosp_plan: <http://www.example.org/prospective_plan/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix retrosp_plan: <http://www.example.org/retrospective_plan/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+obo:BFO_0000008 rdfs:subClassOf exact2:OWLClass_8029e3a4_312f_4130_827e_d330da199ea9 .
+
+obo:BFO_0000050 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a ;
+    owl:inverseOf obo:BFO_0000051 .
+
+obo:BFO_0000056 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a ;
+    owl:inverseOf obo:BFO_0000057 .
+
+obo:BFO_0000082 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a .
+
+obo:BFO_0000083 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a .
+
+obo:OBI_0000293 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a ;
+    owl:inverseOf obo:OBI_0000295 .
+
+obo:OBI_0000299 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a ;
+    owl:inverseOf obo:OBI_0000312 .
+
+obo:OBI_0000417 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a ;
+    owl:inverseOf obo:OBI_0000833 .
+
+obo:OBI_0000426 rdfs:subClassOf exact2:Class_89 .
+
+obo:OBI_0302905 rdfs:subClassOf exact2:Class_89 .
+
+retrosp_plan:agent_6 a prov:Agent ;
+    rdfs:label "Petra Seidel"^^xsd:string ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_140 a ep-plan:Entity ;
+    rdfs:label "01_Zeitserie_Stimulation_A1.czi"^^xsd:string ;
+    prov:wasGeneratedBy retrosp_plan:activity_87,
+        retrosp_plan:activity_88 ;
+    ep-plan:correspondsToVariable prosp_plan:var_78 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_141 a ep-plan:Entity ;
+    rdfs:label "01_Bild_Stimulation_A1.czi"^^xsd:string ;
+    prov:wasGeneratedBy retrosp_plan:activity_87,
+        retrosp_plan:activity_88 ;
+    ep-plan:correspondsToVariable prosp_plan:var_79 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_143 a ep-plan:Entity ;
+    rdfs:label "01_Zeitserie_Kontrolle_B1.czi"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_78 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_144 a ep-plan:Entity ;
+    rdfs:label "01_Bild_kontrolle_B1.czi"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_79 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_84 a ep-plan:Entity ;
+    ep-plan:correspondsToVariable retrosp_plan:entity_13 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_98 a obo:PATO_0000918,
+        ep-plan:Entity ;
+    rdfs:label "1.5ml"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_34 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+exact2:Adjust a owl:Class ;
+    rdfs:label "adjust" ;
+    exact2:Synonym "\"Bring volume\"" ;
+    exact2:is_definition """is an experimental action to make exact; to bring an entity to a specified standard
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Adjust
+""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000356 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000918 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        exact2:Class_89 .
+
+exact2:Air_Dry a owl:Class ;
+    rdfs:label "air dry" ;
+    exact2:Synonym "\"Dry\"",
+        "dry" ;
+    exact2:is_definition """is an experimental action or "process of drying by means of air"
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Align a owl:Class ;
+    rdfs:label "align" ;
+    exact2:Synonym "\"Orient\"" ;
+    exact2:is_definition """is an experimental action "to place or become placed in a line; to bring components  into proper or desirable coordination or relation"
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Aliquot a owl:Class ;
+    rdfs:label "aliquot" ;
+    exact2:is_definition """is an experimental action "to measure out (a substance) into small samples of equal size; to divide into aliquot parts, esp. for use as experimental samples"
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000918 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        exact2:Class_89 .
+
+exact2:Allow a owl:Class ;
+    rdfs:label "allow" ;
+    exact2:is_definition """is an experimental action "to permit (to do something); let;  to set aside" 
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993.
+""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:Class_83 ],
+        exact2:Class_89 .
+
+exact2:Atomic a owl:NamedIndividual .
+
+exact2:Autoclave a owl:Class ;
+    rdfs:label "autoclave" ;
+    exact2:is_definition """is an experimental action "to heat or sterilize (a substance or object) in an autoclave"
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Check a owl:Class ;
+    rdfs:label "check" ;
+    exact2:is_definition "is an experimental action to verify the subject or entity at hand " ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Chill a owl:Class ;
+    rdfs:label "chill" ;
+    exact2:is_definition "is an experimental action to place the entity in a low temperature environment " ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:Class_66 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:Class_83 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+        exact2:Class_89 .
+
+exact2:Class_11 a owl:Class ;
+    rdfs:label "pour"^^xsd:string ;
+    exact2:Synonym """"Pour off"
+"Continue to pour\"""" ;
+    exact2:is_definition """is an experimental action “to cause or allow (a substance, esp. a liquid) to flow out of a vessel or receptacle; to emit in a stream”
+ Reference: THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000918 ],
+        exact2:Class_89 .
+
+exact2:Class_110 a owl:Class ;
+    rdfs:label "author identification"^^xsd:string ;
+    rdfs:comment "IAO: http://purl.obolibrary.org/obo/IAO_0000302",
+        """is syninym to DC: author of the protocol
+
+A textual entity intended to identify a particular author""" ;
+    rdfs:subClassOf obo:IAO_0000300 .
+
+exact2:Class_118 a owl:Class ;
+    rdfs:label "start location"^^xsd:string ;
+    rdfs:comment "start location is a location of a biochemical entity or equipment at the beginning of an experiment action"^^xsd:string ;
+    rdfs:subClassOf obo:BFO_0000029 .
+
+exact2:Class_119 a owl:Class ;
+    rdfs:label "end location"^^xsd:string ;
+    rdfs:comment "end location is a location of a biochemical entity or equipment at the end of an experiment action"^^xsd:string ;
+    rdfs:subClassOf obo:BFO_0000029 .
+
+exact2:Class_123 a owl:Class ;
+    rdfs:label "warning"^^xsd:string ;
+    rdfs:comment "an alert message given to a user of a protocol that a certain action can cause unexpected results and errors."^^xsd:string ;
+    rdfs:subClassOf exact2:Class_121 .
+
+exact2:Class_127 a owl:Class ;
+    rdfs:label "subject"^^xsd:string ;
+    rdfs:comment """The topic of the resource.
+http://purl.org/dc/terms/subject 
+
+""" ;
+    rdfs:subClassOf obo:IAO_0000030 .
+
+exact2:Class_128 a owl:Class ;
+    rdfs:label "date submitted"^^xsd:string ;
+    rdfs:comment """Date of submission of the resource.
+http://purl.org/dc/terms/dateSubmitted""" ;
+    rdfs:subClassOf obo:IAO_0000030 .
+
+exact2:Class_13 a owl:Class ;
+    rdfs:label "wait"^^xsd:string ;
+    exact2:is_definition "is an experimental action to allow a time interval to pass without experiment actions"^^xsd:string ;
+    rdfs:subClassOf exact2:Class_89 .
+
+exact2:Class_20 a owl:Class ;
+    rdfs:label "shake"^^xsd:string ;
+    exact2:is_definition """is an experimental action to move regularly by agitating; to throw off by a jolting or vibrating motion in the defined restricted space
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/shake"""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000146 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+        exact2:Class_89 .
+
+exact2:Class_23 a owl:Class ;
+    rdfs:label "calibrate"^^xsd:string ;
+    exact2:Synonym """ 	http://purl.obolibrary.org/obo/OBI_0000818 calibration
+
+A planned process with the objective to establish the relationship between data produced by a measurement device and physical qualities. This is done by using the measurement device under defined conditions, and either tuning it to adjust the measured output, or record the output and use it as a reference in future measurements.""" ;
+    rdfs:comment """To calibrate is an experiment action “to determine the correct position, value, capacity, etc., of; to set an instrument so that readings taken from it are absolute rather than relative” 
+Reference: THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:Class_66 ],
+        exact2:Class_89 .
+
+exact2:Class_25 a owl:Class ;
+    rdfs:label "filter"^^xsd:string ;
+    exact2:is_definition """is an experimental action “to pass (a liquid) through a filter, or some porous medium, for the purpose of removing solid particles or impurities”
+Reference:based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000918 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom exact2:OWLClass_b8241e01_b952_4810_bf2d_43ec10dd9db6 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        exact2:Class_89 .
+
+exact2:Class_27 a owl:Class ;
+    rdfs:label "discard"^^xsd:string ;
+    exact2:is_definition """is an experimental action to move an unwanted entity to an appropriate waste location
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Class_28 a owl:Class ;
+    rdfs:label "connect"^^xsd:string ;
+    exact2:is_definition """is an experimental action “to join, fasten, or link together … by the connecting medium or instrumentality”
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom obo:BFO_0000040 ],
+        exact2:Class_89 .
+
+exact2:Class_29 a owl:Class ;
+    rdfs:label "vortex"^^xsd:string ;
+    exact2:is_definition """is an experimental action of a spiral rotatory movement of matter with the increasing gravity round a centre or axis
+Reference:based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+        exact2:Class_89 .
+
+exact2:Class_30 a owl:Class ;
+    rdfs:label "rotate"^^xsd:string ;
+    exact2:is_definition """is an experimental action “to cause (an entity) to turn round or revolve on a centre or axis”
+Reference: THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Class_31 a owl:Class ;
+    rdfs:label "inoculate"^^xsd:string ;
+    exact2:Synonym "\"Seed\"" ;
+    exact2:is_definition """is an experiment action to "introduce a microorganism or suspension of microorganisms (e.g. bacteria) into a culture medium"
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Inoculate"""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000918 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Class_32 a owl:Class ;
+    rdfs:label "cover"^^xsd:string ;
+    exact2:is_definition """ is an experimental action to put or lay a top over a base, with the effect of enclosing
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:Class_66 ],
+        exact2:Class_89 .
+
+exact2:Class_33 a owl:Class ;
+    rdfs:label "seal"^^xsd:string ;
+    exact2:is_definition """is an experimental action to close or fasten tightly a base and a top by any substance or devise used as sealant
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:Class_66 ],
+        exact2:Class_89 .
+
+exact2:Class_34 a owl:Class ;
+    rdfs:label "join"^^xsd:string ;
+    exact2:is_definition """is an experimental action “to put (things) together, so that they become physically united or continuous; to fasten, attach, connect, unite (one thing to another); also, to connect by means of something intervening or attached to each”
+Reference:based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Class_37 a owl:Class ;
+    rdfs:label "ignite"^^xsd:string ;
+    exact2:is_definition """is an experimental action “to subject to the action of fire”
+Reference:based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        exact2:Class_89 .
+
+exact2:Class_38 a owl:Class ;
+    rdfs:label "thaw"^^xsd:string ;
+    exact2:is_definition """is an experimental action to change a substance from a frozen state to a liquid state 
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000146 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:OWLObjectProperty_be19e6ab_5d59_4e00_8a0b_66e0e2fbd057 ;
+            owl:someValuesFrom obo:PATO_0000819 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        exact2:Class_89 .
+
+exact2:Class_44 a owl:Class ;
+    rdfs:label "dissolve"^^xsd:string ;
+    exact2:is_definition """is an experimental action “to change or cause to change from a solid to a dispersed form by immersion in a fluid of suitable properties” 
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Dissolve"""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000918 ],
+        exact2:Class_89 .
+
+exact2:Class_47 a owl:Class ;
+    rdfs:label "break"^^xsd:string ;
+    exact2:is_definition """is an experimental action “to separate into two or more pieces” regardless of precision of the separation 
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Class_48 a owl:Class ;
+    rdfs:label "pierce"^^xsd:string ;
+    exact2:is_definition """is an experimental action to penetrate; to pass or break through or into something, esp. as or in the manner of a sharp-pointed object
+Reference:based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Class_51 a owl:Class ;
+    rdfs:label "boil"^^xsd:string ;
+    exact2:is_definition """is an experimental action “to bubble up in agitation through the action of heat causing the lowest portions of the liquid to pass into the gaseous form and escape; to reach the boiling point, to turn from the liquid into the gaseous state”
+Reference:based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Class_52 a owl:Class ;
+    rdfs:label "streak"^^xsd:string ;
+    exact2:is_definition "is an experimental action to dilute a microbial sample using a sterile tool to isolate individual colonies. The sterile tool is dragged across the surface of solid culture medium in a zig zag motion until 30% of the solid medium is covered, this action is then repeated twice more in different sectors being cautious not to touch the previously streaked sectorsof the solid culture medium. "^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        exact2:Class_89 .
+
+exact2:Class_54 a owl:Class ;
+    rdfs:label "wash"^^xsd:string ;
+    exact2:Synonym "\"Rinse\"",
+        """washing
+http://purl.obolibrary.org/obo/OBI_0302888
+washing is a process by which a material entity acting as contaminant (e.g. excess staining reagent) is removed by application of one or more cycles of solution in flow.
+""" ;
+    exact2:is_definition """is an experimental action “to cleanse, remove "the unwanted material” from an entity by affusion of or immersion in” fluid
+Reference:based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        exact2:Class_89 .
+
+exact2:Class_56 a owl:Class ;
+    rdfs:label "record"^^xsd:string ;
+    rdfs:comment "To record is an experiment action to represent symbolically a value of a measurement or an observation in order to preserve information for later use"^^xsd:string ;
+    rdfs:subClassOf exact2:Class_89 .
+
+exact2:Class_59 a owl:Class ;
+    rdfs:label "measure"^^xsd:string ;
+    rdfs:comment """To measure is an experiment action “to determine the extent, quantity, amount or degree of something”
+Reference: Based on Collins Softback English Dictionary, HarperCollins Publishers, Glasgow, 1993."""^^xsd:string ;
+    rdfs:subClassOf exact2:Class_89 .
+
+exact2:Class_64 a owl:Class ;
+    rdfs:label "preparation procedure"^^xsd:string ;
+    rdfs:comment "a procedure with a goal of preparation for the execution of a main part of an experimental  protocol."^^xsd:string ;
+    rdfs:subClassOf exact2:Class_63 .
+
+exact2:Class_65 a owl:Class ;
+    rdfs:label "operating procedure"^^xsd:string ;
+    rdfs:comment " a sequence of experiment actions with specified goals."^^xsd:string ;
+    rdfs:subClassOf exact2:Class_63 .
+
+exact2:Class_7 a owl:Class ;
+    rdfs:label "divide"^^xsd:string ;
+    exact2:Synonym "\"Split\"" ;
+    exact2:is_definition """is an experimental action “to separate (a thing) into parts, or (a number or collective body) into smaller groups; to split up, cleave; to break or cut asunder”
+Reference:based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Class_72_76 a owl:NamedIndividual .
+
+exact2:Class_77 a owl:Class ;
+    rdfs:label "critical step"^^xsd:string ;
+    rdfs:comment "refrence: Nature Protocols"^^xsd:string ;
+    rdfs:subClassOf exact2:Class_121 .
+
+exact2:Class_78 a owl:Class ;
+    rdfs:label "neurotoxic"^^xsd:string ;
+    rdfs:comment """avoid contact with skin, eyes or mucous membranes; keep away from sources of ignition. When handling , wear gloves. 
+Reference: Nature Protocols"""^^xsd:string ;
+    rdfs:subClassOf exact2:Class_122 .
+
+exact2:Class_79 a owl:Class ;
+    rdfs:label "highly flammable"^^xsd:string ;
+    rdfs:comment """avoid contact with skin, eyes or mucous membranes; keep away from sources of ignition. 
+Reference: Nature Protocols"""^^xsd:string ;
+    rdfs:subClassOf exact2:Class_122 .
+
+exact2:Class_80 a owl:Class ;
+    rdfs:label "flammable"^^xsd:string ;
+    rdfs:comment """keep away from sources of ignition. 
+Reference: Nature Protocols"""^^xsd:string ;
+    rdfs:subClassOf exact2:Class_122 .
+
+exact2:Class_81 a owl:Class ;
+    rdfs:label "toxic"^^xsd:string ;
+    rdfs:comment """avoid inhalation, ingestion or contact with skin, eyes or mucous membranes
+Reference: Nature Protocols"""^^xsd:string ;
+    rdfs:subClassOf exact2:Class_122 .
+
+exact2:Class_82 a owl:Class ;
+    rdfs:label "pyrophoric"^^xsd:string ;
+    rdfs:comment """Ignates in air.
+Reference: Nature Protocols"""^^xsd:string ;
+    rdfs:subClassOf exact2:Class_122 .
+
+exact2:Class_86_101 a owl:NamedIndividual .
+
+exact2:Class_8_34 a owl:NamedIndividual .
+
+exact2:Class_99 a owl:Class ;
+    rdfs:label "volatile"^^xsd:string ;
+    rdfs:comment """handle in well-ventilated charcoal-filtered hood
+Reference: Nature Protocols"""^^xsd:string ;
+    rdfs:subClassOf exact2:Class_122 .
+
+exact2:Clean a owl:Class ;
+    rdfs:label "clean" ;
+    exact2:is_definition """is an experimental action "to remove dirt or other impurities; recently washed;without extraneous or foreign materials"
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:Class_66 ],
+        exact2:Class_89 .
+
+exact2:Coat a owl:Class ;
+    rdfs:label "coat" ;
+    exact2:is_definition """is an experimental action to add a layer of a chemical agent or biological entity that covers or conceals a surface 
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993.""" ;
+    rdfs:subClassOf exact2:Class_89 .
+
+exact2:Cool a owl:Class ;
+    rdfs:label "cool" ;
+    exact2:is_definition "is an experimental action where an entity is placed in a lower temperature environment than the current experimental temperature." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000146 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:Class_83 ],
+        exact2:Class_89 .
+
+exact2:Cut a owl:Class ;
+    rdfs:label "cut" ;
+    exact2:is_definition """is an experimental action "to divide or be divided with or as if with a sharp instrument"
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Dilute a owl:Class ;
+    rdfs:label "dilute" ;
+    exact2:is_definition """is an experimental action "to make or become less concentrated, esp by adding water or a thinner; (of a solution, suspension, mixture, etc) having a low concentration or a concentration that has been reduced by admixture"
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993.
+""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000918 ],
+        exact2:Class_89 .
+
+exact2:Disconnect a owl:Class ;
+    rdfs:label "disconnect" ;
+    exact2:is_definition """is an experimental action to break the connection  between two or more entities
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993.
+""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:EXACT_DatatypeProperty_101 a owl:DatatypeProperty .
+
+exact2:Encircle a owl:Class ;
+    rdfs:label "encircle" ;
+    exact2:is_definition """is an experimental action "to form a circle around; enclose within a circle; surround"
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993.
+""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Fixate a owl:Class ;
+    rdfs:label "fixate" ;
+    exact2:is_definition """is an experimental action to use a fixative to preserve histological or cytological specimens
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Fixation""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000356 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_aa788dcd_414c_4fdc_8714_55549190d2b7 ],
+        exact2:Class_89 .
+
+exact2:Freeze a owl:Class ;
+    rdfs:label "freeze" ;
+    exact2:is_definition """is an experimental action "to change (a liquid) into a solid as a result of a reduction in temperature, or (of a liquid) to solidify in this way, esp to convert or be converted into ice" 
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993.""" ;
+    rdfs:subClassOf exact2:Class_89 .
+
+exact2:Insert a owl:Class ;
+    rdfs:label "insert" ;
+    exact2:Synonym "\"Introduce\"" ;
+    exact2:is_definition """is an experimental action "to set, put, or place in; to push or thrust in; to fix or fix in; to introduce; to ingraft. Said primarily of putting any solid object into a space which it fits, or fills up; hence to place a thing, as an addition, between the parts of another"
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Invert a owl:Class ;
+    rdfs:label "invert" ;
+    exact2:is_definition """is an experimental action "to turn over; to put upside down" an entity
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Invert""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+        exact2:Class_89 .
+
+exact2:Label a owl:Class ;
+    rdfs:label "label" ;
+    exact2:Synonym "\"Mark\"" ;
+    exact2:is_definition "is an experimental action to mark an entity with a unique identifier or description" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:Class_66 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:OWLObjectProperty_be19e6ab_5d59_4e00_8a0b_66e0e2fbd057 ;
+            owl:someValuesFrom obo:PATO_0000819 ],
+        exact2:Class_89 .
+
+exact2:Leave a owl:Class ;
+    rdfs:label "leave" ;
+    exact2:Synonym """"leave behind"
+""" ;
+    exact2:is_definition " is an experimental action to let an entity remain unremoved or undone" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:Class_83 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+        exact2:Class_89 .
+
+exact2:Load a owl:Class ;
+    rdfs:label "load" ;
+    exact2:Synonym "\"Mount\"" ;
+    exact2:is_definition "is an experimental action to place an entity into a specified location" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:Class_66 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:Class_83 ],
+        exact2:Class_89 .
+
+exact2:Make a owl:Class ;
+    rdfs:label "make" ;
+    exact2:Synonym "\"Make up\"" ;
+    exact2:is_definition """is an experimental action "to compose, as parts, ingredients, or materials; to constitute; to form; to amount to" 
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Make""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:Class_66 ],
+        exact2:Class_89 .
+
+exact2:Neutralise a owl:Class ;
+    rdfs:label "neutralise" ;
+    exact2:is_definition """is an experimental action "to counterbalance; to render ineffective or void; to implement an opposite force or effect";" to inactivate (a toxin, other biologically active substance, or pathogen), esp. by the action of an antiserum or antibody; spec. to render a virus non-infective"
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Neutralise""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:OWLClass_039e18d6_76e9_42a7_9965_9b2c1dd16a6b a owl:Class ;
+    rdfs:label "continue"@en ;
+    rdfs:subClassOf exact2:OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b ;
+    owl:deprecated "true" .
+
+exact2:OWLClass_08b1a362_6766_4783_8c3f_38aff979b059 a owl:Class ;
+    rdfs:label "lid"@en ;
+    rdfs:subClassOf exact2:OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b ;
+    owl:deprecated "true" .
+
+exact2:OWLClass_094e2a7a_fb9a_4cba_8e80_49d0696eccda a owl:Class ;
+    rdfs:label "digest"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000918 ],
+        exact2:Class_89 .
+
+exact2:OWLClass_0a848648_4d4d_4de7_bb05_ec32cf8dcb3e a owl:Class ;
+    rdfs:label "experimental protocol"@en ;
+    exact2:Synonym """has synonym: OBI protocol
+http://purl.obolibrary.org/obo/obi.owl""" ;
+    rdfs:subClassOf obo:BFO_0000007 .
+
+exact2:OWLClass_12bbde6f_a9f2_48fd_94a9_be38e49c936a a owl:Class ;
+    rdfs:label "mode of separation"@en ;
+    rdfs:subClassOf exact2:OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b ;
+    owl:deprecated "true" .
+
+exact2:OWLClass_2579c158_db35_499c_a17f_47700d01980a a owl:Class ;
+    rdfs:label "proposition"@en ;
+    rdfs:subClassOf exact2:OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b ;
+    owl:deprecated "true" .
+
+exact2:OWLClass_5f1c02ee_7962_4dbd_9e41_7e4aa8f8f374 a owl:Class ;
+    rdfs:label "engage"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:OWLClass_619d2bfa_af4a_4bb1_bd83_395e4d19e08d a owl:Class ;
+    rdfs:label "de-lid"@en ;
+    rdfs:subClassOf exact2:OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b ;
+    owl:deprecated "true" .
+
+exact2:OWLClass_6449c8f2_cbb0_4b78_9408_73c36c444659 a owl:Class ;
+    rdfs:label "mode of transformation"@en ;
+    rdfs:subClassOf exact2:OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b ;
+    owl:deprecated "true" .
+
+exact2:OWLClass_67f766fc_d492_462f_9cc5_11da5013a53b a owl:Class ;
+    rdfs:label "(optional) end location"@en ;
+    rdfs:comment "end location (optional) is a location of a biochemical entity or equipment at the end of an experiment action" ;
+    rdfs:subClassOf exact2:OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7 .
+
+exact2:OWLClass_6d12ea0f_50a4_42a5_9ddf_d270576938a4 a owl:Class ;
+    rdfs:label "snap"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        exact2:Class_89 .
+
+exact2:OWLClass_705c1d8b_d7b2_455e_9f80_d4bc62eb57b1 a owl:Class ;
+    rdfs:label "role"@en ;
+    rdfs:subClassOf exact2:OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b ;
+    owl:deprecated "true" .
+
+exact2:OWLClass_94537316_67e2_4c68_9a53_6772176a3c81 a owl:Class ;
+    rdfs:label "mode of combination"@en ;
+    rdfs:subClassOf exact2:OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b ;
+    owl:deprecated "true" .
+
+exact2:OWLClass_98fc2b7b_ed35_453a_8d05_8dfcf81df114 a owl:Class ;
+    rdfs:label "note"@en ;
+    obo:IAO_0000115 "a textual entity that can be ignored by an automatic agent. The goal is to give additional information to the user." ;
+    rdfs:comment "a textual entity that can be ignored by an automatic agent. The goal is to give additional information to the user." ;
+    rdfs:subClassOf obo:IAO_0000300 .
+
+exact2:OWLClass_9ad55d12_d7ed_46a0_822a_37c797fbcdcf a owl:Class ;
+    rdfs:label "seat"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:OWLClass_a0098fd8_e23b_41da_bae1_ba9e414fef99 a owl:Class ;
+    rdfs:label "(optional) concentration value"@en ;
+    obo:IAO_0000412 <http://www.owl-ontologies.com/Ontology1184060740.owl> ;
+    rdfs:subClassOf exact2:OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7 .
+
+exact2:OWLClass_a14317a6_fac8_4c28_be9f_7871b7ed04b2 a owl:Class ;
+    rdfs:label "command action"@en ;
+    rdfs:subClassOf exact2:OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b ;
+    owl:deprecated "true" .
+
+exact2:OWLClass_a24e4946_9399_4a64_8133_2d6e3ae3e35b a owl:Class ;
+    rdfs:label "grow"@en ;
+    exact2:is_definition "is an experimental action to culture a microorganism in specified or optimal conditions in order to increase the cell density and/or population " ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000146 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:Class_68 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:Class_83 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+        exact2:Class_89 .
+
+exact2:OWLClass_a3fb3061_f660_4277_a18d_29da11299bb1 a owl:Class ;
+    rdfs:label "(optional) speed"@en ;
+    rdfs:comment <http://www.owl-ontologies.com/Ontology1184060740.owl> ;
+    rdfs:subClassOf exact2:OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7 .
+
+exact2:OWLClass_bd73ad20_b276_46e5_88ed_a42b6e639ee4 a owl:Class ;
+    rdfs:label "citation"@en ;
+    rdfs:comment """a textual entity intended to identify a particular publication
+http://purl.obolibrary.org/obo/IAO_0000301
+""" ;
+    rdfs:subClassOf obo:IAO_0000300 .
+
+exact2:OWLClass_c4fbbd5a_e8c3_4c16_ad35_2156b36a965d a owl:Class ;
+    rdfs:label "stop"@en ;
+    rdfs:subClassOf exact2:OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b ;
+    owl:deprecated "true" .
+
+exact2:OWLClass_d227d2d5_49e4_49f3_a094_bd10628b1a87 a owl:Class ;
+    rdfs:label "suspend"@en ;
+    exact2:is_definition """is an experimental action to "cause (particles) to be held in suspension in a fluid"
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993.
+""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:Class_66 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000918 ],
+        exact2:Class_89 .
+
+exact2:OWLClass_d2fc6249_808f_43f4_9c3a_6a54de4a301b a owl:Class ;
+    rdfs:label "assessment action"@en ;
+    rdfs:subClassOf exact2:OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b ;
+    owl:deprecated "true" .
+
+exact2:OWLClass_d7008553_d906_425e_a85d_eae66497f840 a owl:Class ;
+    rdfs:label "(optional) start location"@en ;
+    rdfs:comment "start location (optional) is a location of a biochemical entity or equipment at the beginning of an experiment action" ;
+    rdfs:subClassOf exact2:OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7 .
+
+exact2:OWLClass_ec95eb66_58a2_4e3a_adfc_b7df576457cb a owl:Class ;
+    rdfs:label "(optional) volume"@en ;
+    obo:IAO_0000412 <http://www.owl-ontologies.com/Ontology1184060740.owl> ;
+    rdfs:subClassOf exact2:OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7 .
+
+exact2:OWLClass_f52f0377_7bc1_45c4_a949_00d581b0e235 a owl:Class ;
+    rdfs:label "equipment setup action"@en ;
+    rdfs:subClassOf exact2:OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b ;
+    owl:deprecated "true" .
+
+exact2:OWLClass_fede789e_08ff_4d4a_bf4a_cd6f393a670d a owl:Class ;
+    rdfs:label "object"@en ;
+    rdfs:subClassOf exact2:OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b ;
+    owl:deprecated "true" .
+
+exact2:Overlay a owl:Class ;
+    rdfs:label "overlay" ;
+    exact2:is_definition """ is an experimental action where an biological agent is laid over an entity; a covering, an overlying layer
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Pick a owl:Class ;
+    rdfs:label "pick" ;
+    exact2:Synonym "\"Select\"" ;
+    exact2:is_definition """is an experimental action "to choose; to select; to separate as choice or desirable"
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Pick""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Plate a owl:Class ;
+    rdfs:label "plate" ;
+    exact2:is_definition "is an experimental action to culture microorganisms on a solid agar medium. There are several techniques of plating microorganisms on solid agar medium" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Prepare a owl:Class ;
+    rdfs:label "prepare" ;
+    exact2:Synonym """"Set"
+"Set up\"""" ;
+    exact2:is_definition """is an experimental action to bring an entity into a suitable condition for some future action or purpose; to make ready in advance
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000918 ],
+        exact2:Class_89 .
+
+exact2:Pull a owl:Class ;
+    rdfs:label "pull" ;
+    exact2:is_definition """is an experimental action to move or operate by the motion of drawing towards one
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Pull""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Ramp a owl:Class ;
+    rdfs:label "ramp" ;
+    exact2:is_definition "is an experimental action to increase a specified parameter in incremental steps over a given period of time" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000008 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000146 ],
+        exact2:Class_89 .
+
+exact2:Reconstitute a owl:Class ;
+    rdfs:label "reconstitute" ;
+    exact2:is_definition """is an experimental action "to restore to original form of a substance previously altered for preservation and storage, as the restoration to a liquid state of blood serum or plasma that has been dried and stored"
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Reconstitute
+""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000918 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        exact2:Class_89 .
+
+exact2:Reduce a owl:Class ;
+    rdfs:label "reduce" ;
+    exact2:is_definition """is an experimental action "to bring to the metallic state by separating from impurities; hence, in general, to remove oxygen from; to deoxidize"
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Reduce""",
+        """is an experimental action to lessen or decrease an entity
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Reduce""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        exact2:Class_89 .
+
+exact2:Rock a owl:Class ;
+    rdfs:label "rock" ;
+    exact2:is_definition """is an experimental action "to create a movement to and fro or a swaying from side to side"
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+        exact2:Class_89 .
+
+exact2:Slide a owl:Class ;
+    rdfs:label "slide" ;
+    exact2:is_definition """is an experimental action "to pass from one place or point to another with a smooth and continuous movement, esp. through the air or water or along a surface"
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Spool_up a owl:Class ;
+    rdfs:label "spool up" ;
+    exact2:is_definition "is an experimental action to remove DNA from a solution during the DNA extraction procedure. This involves a gentle swirling/rotating motion to extract the precipitated DNA. " ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Spread a owl:Class ;
+    rdfs:label "spread" ;
+    exact2:is_definition """is an experimental action "to extend so as to cover something; to extend to a great or grater extent in every direction; to cause to fill or cover a wide or wider space"
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Spread """ ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        exact2:Class_89 .
+
+exact2:Squeeze a owl:Class ;
+    rdfs:label "squeeze" ;
+    exact2:is_definition """is an experimental action "to press or compress hard, esp. so as to flatten, crush, or force together"
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Stand a owl:Class ;
+    rdfs:label "stand" ;
+    exact2:is_definition """is an experimental action "to be at rest in an erect position; to be fixed in an upright or firm position"
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Stand""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Stir a owl:Class ;
+    rdfs:label "stir" ;
+    exact2:is_definition """is an experimental action "to disturb the relative position of the particles of, as of a liquid, by passing something through it; to agitate"
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Stir""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        exact2:Class_89 .
+
+exact2:Synonym a owl:AnnotationProperty .
+
+exact2:Turn_off a owl:Class ;
+    rdfs:label "turn off" ;
+    exact2:is_definition """is an experimental action "to cause (something) to cease operating by turning a knob, pushing a button, etc"
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Wrap a owl:Class ;
+    rdfs:label "wrap" ;
+    exact2:is_definition """is an experimental action "to surround or conceal by surrounding; to fold, wind, or roll up"
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        exact2:Class_89 .
+
+exact2:is_definition a owl:AnnotationProperty .
+
+exact2:triturate a owl:Class ;
+    rdfs:label "triturate" ;
+    exact2:is_definition """is an experimental action "to grind or rub into a fine powder or pulp"
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:Class_66 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        exact2:Class_89 .
+
+obo:BFO_0000051 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a .
+
+obo:OBI_0000295 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a .
+
+obo:OBI_0000312 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a .
+
+obo:OBI_0000833 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a .
+
+prosp_plan:plan_1 dct:hasVersion [ a obo:IAO_0000129,
+                exact2:OWLClass_870d9f06_a65a_415d_b7cc_e1dbbbcc9b2c ;
+            rdfs:label "0.2.0"^^xsd:string ] .
+
+retrosp_plan:activity_46 a exact2:Class_50,
+        ep-plan:Activity ;
+    rdfs:label "warm up to 37°C:"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_73,
+        retrosp_plan:entity_74,
+        retrosp_plan:entity_75 ;
+    obo:BFO_0000086 retrosp_plan:entity_76 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_73,
+        retrosp_plan:entity_74,
+        retrosp_plan:entity_75,
+        retrosp_plan:entity_76 ;
+    prov:wasAssociatedWith retrosp_plan:agent_4 ;
+    prov:wasInformedBy retrosp_plan:activity_45 ;
+    ep-plan:correspondsToStep prosp_plan:step_2 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_48 a exact2:Class_50,
+        ep-plan:Activity ;
+    rdfs:label "warm up to 37°C:"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_77,
+        retrosp_plan:entity_78,
+        retrosp_plan:entity_79 ;
+    obo:BFO_0000086 retrosp_plan:entity_76 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_76,
+        retrosp_plan:entity_77,
+        retrosp_plan:entity_78,
+        retrosp_plan:entity_79 ;
+    prov:wasAssociatedWith retrosp_plan:agent_4 ;
+    prov:wasInformedBy retrosp_plan:activity_47 ;
+    ep-plan:correspondsToStep prosp_plan:step_4 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_50 a exact2:Class_50,
+        ep-plan:Activity ;
+    rdfs:label "warm up to room temperature:"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_81,
+        retrosp_plan:entity_82 ;
+    obo:BFO_0000086 retrosp_plan:entity_83 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_81,
+        retrosp_plan:entity_82,
+        retrosp_plan:entity_83 ;
+    prov:wasAssociatedWith retrosp_plan:agent_4 ;
+    prov:wasInformedBy retrosp_plan:activity_49 ;
+    ep-plan:correspondsToStep prosp_plan:step_6 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_51 a exact2:Class_19,
+        ep-plan:Activity ;
+    rdfs:label "suction fluid from T75"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87 ;
+    prov:startedAtTime "9:00"^^xsd:string ;
+    prov:used retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_50 ;
+    ep-plan:correspondsToStep prosp_plan:step_7alternative_in_v2__1 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_52 a exact2:Class_9,
+        ep-plan:Activity ;
+    rdfs:label "add PBS"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_75,
+        retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_75,
+        retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87 ;
+    prov:wasInformedBy retrosp_plan:activity_51 ;
+    ep-plan:correspondsToStep prosp_plan:step_9 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_53 a exact2:Class_21,
+        ep-plan:Activity ;
+    rdfs:label "swing T75"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87 ;
+    prov:used retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87 ;
+    prov:wasInformedBy retrosp_plan:activity_52 ;
+    ep-plan:correspondsToStep prosp_plan:step_11 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_54 a exact2:Class_19,
+        ep-plan:Activity ;
+    rdfs:label "directly suction fluid"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_53 ;
+    ep-plan:correspondsToStep prosp_plan:step_13 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_55 a exact2:Class_9,
+        ep-plan:Activity ;
+    rdfs:label "add 0.5ml [Enzyme] Trypsin/EDTA"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_78,
+        retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_78,
+        retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87,
+        retrosp_plan:entity_88 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_54 ;
+    ep-plan:correspondsToStep prosp_plan:step_15 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_56 a exact2:Class_49,
+        ep-plan:Activity ;
+    rdfs:label "incubate 5min in [Device] SANYO CO2 Incubator at 37°C"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_89,
+        retrosp_plan:entity_90,
+        retrosp_plan:entity_91 ;
+    obo:BFO_0000086 retrosp_plan:entity_89 ;
+    prov:startedAtTime "9:05"^^xsd:string ;
+    prov:used retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87,
+        retrosp_plan:entity_89,
+        retrosp_plan:entity_90,
+        retrosp_plan:entity_91 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_55 ;
+    ep-plan:correspondsToStep prosp_plan:step_17 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_57 a exact2:Store,
+        ep-plan:Activity ;
+    rdfs:label "Electrodes are stored in a  (with 4 ml [Washing solution] PBS without Ca/Mg) for 20 min at 37°C and 5% CO2"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_75 ;
+    obo:BFO_0000086 retrosp_plan:entity_94 ;
+    exact2:objectProperty_3 retrosp_plan:entity_93,
+        retrosp_plan:entity_95 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_75,
+        retrosp_plan:entity_92,
+        retrosp_plan:entity_93,
+        retrosp_plan:entity_94,
+        retrosp_plan:entity_95,
+        retrosp_plan:entity_96 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_56 ;
+    ep-plan:correspondsToStep prosp_plan:step_18 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_58 a exact2:OWLClass_0c157e1a_5e12_448e_a95e_57cef7e77031,
+        ep-plan:Activity ;
+    rdfs:label "Start stimulation device with resistance [x Ω]"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_97 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_97 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_57 ;
+    ep-plan:correspondsToStep prosp_plan:step_19 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_59 a exact2:Class_9,
+        ep-plan:Activity ;
+    rdfs:label "stop the reaction with 1.5ml [Culture Medium] DMEM and serum: 89% + 10% [Serum] FCS + 1% [Antibiotic] Gentamicin"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_77,
+        retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87 ;
+    prov:startedAtTime "9:10"^^xsd:string ;
+    prov:used retrosp_plan:entity_25,
+        retrosp_plan:entity_77,
+        retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_58 ;
+    ep-plan:correspondsToStep prosp_plan:step_21 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_60 a exact2:Class_57,
+        ep-plan:Activity ;
+    rdfs:label "resuspend well to separate cells"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_59 ;
+    ep-plan:correspondsToStep prosp_plan:step_23 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_67 a exact2:Class_53,
+        ep-plan:Activity ;
+    rdfs:label "centrifugate the suspended cells in [Cultivation container] Tube: 10ml  for 5 min at 1,200 rpm using [Device] Eppendorf Centrifuge"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_100,
+        retrosp_plan:entity_113 ;
+    prov:startedAtTime "9:20"^^xsd:string ;
+    prov:used retrosp_plan:entity_100,
+        retrosp_plan:entity_111,
+        retrosp_plan:entity_112,
+        retrosp_plan:entity_113 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_66 ;
+    ep-plan:correspondsToStep prosp_plan:step_31 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_68 a exact2:Class_19,
+        ep-plan:Activity ;
+    rdfs:label "suction fluid"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_100 ;
+    prov:startedAtTime "9:25"^^xsd:string ;
+    prov:used retrosp_plan:entity_100 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_67 ;
+    ep-plan:correspondsToStep prosp_plan:step_32 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_69 a exact2:Class_9,
+        ep-plan:Activity ;
+    rdfs:label "add 2,79 ml of culture medium (free) and serum: 89% [culture medium] DMEM without phenolred, pyruvate + 10% [Serum] FCS + 1% [Antibiotic] Gentamicin"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_100,
+        retrosp_plan:entity_79 ;
+    exact2:objectProperty_3 retrosp_plan:entity_110 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_100,
+        retrosp_plan:entity_110,
+        retrosp_plan:entity_79 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_68 ;
+    ep-plan:correspondsToStep prosp_plan:step_33 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_70 a exact2:Class_22,
+        ep-plan:Activity ;
+    rdfs:label "disinfect & wash with EtOH"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_120 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119,
+        retrosp_plan:entity_120 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_69 ;
+    ep-plan:correspondsToStep prosp_plan:step_34 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_71 a exact2:Class_9,
+        ep-plan:Activity ;
+    rdfs:label "fill with 4ml [culture medium] DMEM without phenolred, pyruvate in each wells"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119,
+        retrosp_plan:entity_79 ;
+    exact2:objectProperty_3 retrosp_plan:entity_121 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119,
+        retrosp_plan:entity_121 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_70 ;
+    ep-plan:correspondsToStep prosp_plan:step_35 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_72 a exact2:Class_49,
+        ep-plan:Activity ;
+    rdfs:label "incubate at 37°C"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119 ;
+    obo:BFO_0000086 retrosp_plan:entity_122 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119,
+        retrosp_plan:entity_122 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_71 ;
+    ep-plan:correspondsToStep prosp_plan:step_36 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_73 a exact2:Class_9,
+        ep-plan:Activity ;
+    rdfs:label "add in all wells  0.2 ml of cell solution"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_100,
+        retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119 ;
+    exact2:objectProperty_3 retrosp_plan:entity_123 ;
+    prov:startedAtTime "9:40"^^xsd:string ;
+    prov:used retrosp_plan:entity_100,
+        retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119,
+        retrosp_plan:entity_123 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_72 ;
+    ep-plan:correspondsToStep prosp_plan:step_38 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_74 a ep-plan:Activity ;
+    rdfs:label "place [Device] Mobini Chamber electrodes on plate"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119,
+        retrosp_plan:entity_92 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_73 ;
+    ep-plan:correspondsToStep prosp_plan:step_39 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_75 a exact2:Class_49,
+        ep-plan:Activity ;
+    rdfs:label "incubate for 2 h in stimulation chamber in incubator at 37°C and 5% CO2"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119 ;
+    obo:BFO_0000086 retrosp_plan:entity_125 ;
+    exact2:objectProperty_3 retrosp_plan:entity_124,
+        retrosp_plan:entity_126 ;
+    prov:startedAtTime "9:44"^^xsd:string ;
+    prov:used retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119,
+        retrosp_plan:entity_124,
+        retrosp_plan:entity_125,
+        retrosp_plan:entity_126 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_74 ;
+    ep-plan:correspondsToStep prosp_plan:step_40 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_76 a exact2:Remove,
+        ep-plan:Activity ;
+    rdfs:label "remove [Device] Mobini chamber electrodes"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119 ;
+    prov:startedAtTime "11:44"^^xsd:string ;
+    prov:used retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_75 ;
+    ep-plan:correspondsToStep prosp_plan:step_41 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_77 a exact2:Class_9,
+        ep-plan:Activity ;
+    rdfs:label "add PBS"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119,
+        retrosp_plan:entity_75 ;
+    prov:startedAtTime "11:45"^^xsd:string ;
+    prov:used retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119,
+        retrosp_plan:entity_75 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_76 ;
+    ep-plan:correspondsToStep prosp_plan:step_42 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_78 a exact2:Class_21,
+        ep-plan:Activity ;
+    rdfs:label "swing"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_77 ;
+    ep-plan:correspondsToStep prosp_plan:step_43 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_79 a exact2:Class_19,
+        ep-plan:Activity ;
+    rdfs:label "directly suction fluid"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_78 ;
+    ep-plan:correspondsToStep prosp_plan:step_44 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_82 a exact2:Class_21,
+        ep-plan:Activity ;
+    rdfs:label "and swing!!!"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_132 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_132 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_81 ;
+    ep-plan:correspondsToStep prosp_plan:step_47 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_83 a exact2:Class_9,
+        ep-plan:Activity ;
+    rdfs:label "add 1ml staining solution to each well"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119,
+        retrosp_plan:entity_132 ;
+    prov:startedAtTime "11:56"^^xsd:string ;
+    prov:used retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119,
+        retrosp_plan:entity_132,
+        retrosp_plan:entity_133 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_82 ;
+    ep-plan:correspondsToStep prosp_plan:step_48 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_84 a exact2:Class_49,
+        ep-plan:Activity ;
+    rdfs:label "incubate 30min in  at 37°C"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119 ;
+    obo:BFO_0000086 retrosp_plan:entity_135 ;
+    exact2:objectProperty_3 retrosp_plan:entity_134 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119,
+        retrosp_plan:entity_134 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_83 ;
+    ep-plan:correspondsToStep prosp_plan:step_49 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_85 a exact2:Remove,
+        ep-plan:Activity ;
+    rdfs:label "remove staining solution"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119 ;
+    prov:startedAtTime "12:26"^^xsd:string ;
+    prov:used retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_84 ;
+    ep-plan:correspondsToStep prosp_plan:step_50 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_86 a exact2:Class_9,
+        ep-plan:Activity ;
+    rdfs:label "add 2ml [Buffer] HEPES I (isotonic)"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119,
+        retrosp_plan:entity_73 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_114,
+        retrosp_plan:entity_115,
+        retrosp_plan:entity_116,
+        retrosp_plan:entity_117,
+        retrosp_plan:entity_118,
+        retrosp_plan:entity_119,
+        retrosp_plan:entity_136,
+        retrosp_plan:entity_73 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_85 ;
+    ep-plan:correspondsToStep prosp_plan:step_51 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_103 a obo:PATO_0000918,
+        ep-plan:Entity ;
+    rdfs:label "10ml"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_39 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_108 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "cell counter"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_44 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_109 a obo:PATO_0000001,
+        ep-plan:Entity ;
+    rdfs:label "1,535,000"^^xsd:string ;
+    prov:wasGeneratedBy retrosp_plan:activity_65 ;
+    ep-plan:correspondsToVariable prosp_plan:var_45 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_111 a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857,
+        ep-plan:Entity ;
+    rdfs:label "5 min"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_47 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_112 a obo:PATO_0000001,
+        ep-plan:Entity ;
+    rdfs:label "1.200 rpm"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_48 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_127 a obo:PATO_0000918,
+        ep-plan:Entity ;
+    rdfs:label "target volume 7 ml"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_65 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_128 a obo:PATO_0000356,
+        ep-plan:Entity ;
+    rdfs:label "50%"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_66 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_129 a obo:PATO_0000356,
+        ep-plan:Entity ;
+    rdfs:label "50%"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_67 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_131 a obo:PATO_0000918,
+        ep-plan:Entity ;
+    rdfs:label "35µl"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_69 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_133 a obo:PATO_0000918,
+        ep-plan:Entity ;
+    rdfs:label "1ml"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_71 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_135 a obo:PATO_0000146,
+        ep-plan:Entity ;
+    rdfs:label "37°C"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_73 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_136 a obo:PATO_0000918,
+        ep-plan:Entity ;
+    rdfs:label "2ml"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_74 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_80 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "Freezer"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_10 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_88 a obo:PATO_0000918,
+        ep-plan:Entity ;
+    rdfs:label "0.5ml"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_21 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_96 a obo:PATO_0000918,
+        ep-plan:Entity ;
+    rdfs:label "4 ml"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_30 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+exact2:Class_22 a owl:Class ;
+    rdfs:label "sterilise"^^xsd:string ;
+    exact2:is_definition """is an experimental action to make an entity "aseptic or free from microorganisms"
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Sterilise
+"""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Class_24 a owl:Class ;
+    rdfs:label "weigh"^^xsd:string ;
+    rdfs:comment """is an experimental action to “To be equivalent to in weight”
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Weigh"""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Class_45 a owl:Class ;
+    rdfs:label "mix"^^xsd:string ;
+    exact2:Synonym "\"Suspend\"" ;
+    exact2:is_definition """is an experimental action “to put together or combine (two or more substances or things) so that the constituents or particles of each are interspersed or diffused more or less evenly among those of the rest”
+Reference:based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:Class_68 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        exact2:Class_89 .
+
+exact2:Class_53 a owl:Class ;
+    rdfs:label "centrifuge"^^xsd:string ;
+    exact2:Synonym """"Spin"
+"Spin down\"""" ;
+    exact2:is_definition """is an experimental action “to subject to centrifugal motion; to separate by means of a centrifuge”.
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        exact2:Class_89 .
+
+exact2:Class_57 a owl:Class ;
+    rdfs:label "resuspend"^^xsd:string ;
+    exact2:is_definition """is an experimental action to suspend material that have been previously suspended, being made homologies, uniformly distributed
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000918 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom exact2:OWLClass_b8241e01_b952_4810_bf2d_43ec10dd9db6 ],
+        exact2:Class_89 .
+
+exact2:Class_60 a owl:Class ;
+    rdfs:label "calculate"^^xsd:string ;
+    rdfs:comment """ is an experimental action to estimate or determine a value of an entity by arithmetical or mathematical reckoning 
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_9d50649c_a0e5_4876_834d_dd48fe9095d1 ],
+        exact2:Class_89 .
+
+exact2:Class_8 a owl:Class ;
+    rdfs:label "move"^^xsd:string ;
+    exact2:Synonym """"Place"
+"Take"
+"Get"
+"Transfer"
+"Put\"""" ;
+    exact2:is_definition "is an experimental action to change a spatial location of an entity from a start location to an end location"^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        exact2:Class_89 .
+
+exact2:Count a owl:Class ;
+    rdfs:label "count" ;
+    exact2:is_definition """is an experimental action "to add up or check (each unit in a collection) in order to ascertain the sum; enumerate"
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Fill a owl:Class ;
+    rdfs:label "fill" ;
+    exact2:is_definition """is an experimental action to make or become full; to occupy the whole of; to bring a liquid to a specified volume
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993.
+
+""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:Class_66 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:OWLClass_0c157e1a_5e12_448e_a95e_57cef7e77031 a owl:Class ;
+    rdfs:label "apply power"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        exact2:Class_89 .
+
+exact2:OWLClass_870d9f06_a65a_415d_b7cc_e1dbbbcc9b2c a owl:Class ;
+    rdfs:label "version"@en ;
+    exact2:Synonym "IAO: version number" ;
+    rdfs:comment """A version number is an information content entity which is a sequence of characters borne by part of each of a class of manufactured products or its packaging and indicates its order within a set of other products having the same name.
+
+ http://purl.obolibrary.org/obo/IAO_0000129""" ;
+    rdfs:subClassOf obo:IAO_0000030 .
+
+exact2:OWLClass_9d50649c_a0e5_4876_834d_dd48fe9095d1 a owl:Class ;
+    rdfs:label "(optional) biochemical entity"@en ;
+    rdfs:subClassOf exact2:OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7 .
+
+exact2:OWLClass_f37c8bc0_049a_448c_a917_a947f6104ac6 a owl:Class ;
+    rdfs:label "(optional) goal of experiment action"@en ;
+    rdfs:comment """A goal (optional) of experiment action is the state that a plan of actions is intended to achieve. 
+Reference: Based on  WordNet: http://www.cogsci.princeton.edu/cgi-bin/webwn2.0?stage=1&word=goal+""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7 .
+
+exact2:Store a owl:Class ;
+    rdfs:label "store" ;
+    exact2:is_definition """is an experimental action to to collect as a reserved supply; to accumulate; to lay away; to deposit in a store for preservation
+Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dictionary/Store""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000146 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:Class_83 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+        exact2:Class_89 .
+
+exact2:e a owl:NamedIndividual .
+
+exact2:ensure_homogeneous_solution a exact2:Class_14,
+        owl:NamedIndividual .
+
+exact2:ii a owl:NamedIndividual .
+
+exact2:t a owl:NamedIndividual .
+
+exact2:weign_12 a exact2:Class_24,
+        owl:NamedIndividual .
+
+obo:BFO_0000029 rdfs:subClassOf exact2:OWLClass_8029e3a4_312f_4130_827e_d330da199ea9 .
+
+retrosp_plan:activity_61 a exact2:Class_8,
+        ep-plan:Activity ;
+    rdfs:label "transfer the suspended cells into a [Cultivation container] Tube: 10ml"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_100,
+        retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87,
+        retrosp_plan:entity_99 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_85,
+        retrosp_plan:entity_86,
+        retrosp_plan:entity_87,
+        retrosp_plan:entity_99 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_60 ;
+    ep-plan:correspondsToStep prosp_plan:step_25 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_62 a exact2:Fill,
+        ep-plan:Activity ;
+    rdfs:label "fill cup of [Device] CASY cell counter with 10ml [Buffer] CASYton: Schärfe System"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_101,
+        retrosp_plan:entity_102 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_101,
+        retrosp_plan:entity_102,
+        retrosp_plan:entity_103 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_61 ;
+    ep-plan:correspondsToStep prosp_plan:step_26 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_63 a exact2:Remove,
+        ep-plan:Activity ;
+    rdfs:label "take out 100µl of cell suspension"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_100 ;
+    exact2:objectProperty_3 retrosp_plan:entity_105 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_100,
+        retrosp_plan:entity_105 ;
+    prov:wasInformedBy retrosp_plan:activity_62 ;
+    ep-plan:correspondsToStep prosp_plan:step_27 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_64 a exact2:Class_9,
+        ep-plan:Activity ;
+    rdfs:label "into cup of [Device] CASY cell counter with buffer"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_104,
+        retrosp_plan:entity_106 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_104,
+        retrosp_plan:entity_106 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_63 ;
+    ep-plan:correspondsToStep prosp_plan:step_28 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_65 a exact2:Count,
+        ep-plan:Activity ;
+    rdfs:label "count cells with [Device] CASY cell counter"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_107 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_107,
+        retrosp_plan:entity_108 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_64 ;
+    ep-plan:correspondsToStep prosp_plan:step_29 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_66 a exact2:Class_60,
+        ep-plan:Activity ;
+    rdfs:label "calculate 1,000,000 cells per ml for approach"^^xsd:string ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_109 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_65 ;
+    ep-plan:correspondsToStep prosp_plan:step_30 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_80 a exact2:Class_45,
+        ep-plan:Activity ;
+    rdfs:label "mix 7ml: 50% isotonic HEPES buffered saline + 50% hypotonic HEPES buffered saline"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_73,
+        retrosp_plan:entity_74 ;
+    exact2:objectProperty_3 retrosp_plan:entity_127,
+        retrosp_plan:entity_128,
+        retrosp_plan:entity_129 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_73,
+        retrosp_plan:entity_74 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_79 ;
+    ep-plan:correspondsToStep prosp_plan:step_45 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_81 a exact2:Class_9,
+        ep-plan:Activity ;
+    rdfs:label "add 35µl [Indicator] Fluo-3/AM (make sure it is dark, no ambient light)"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_130,
+        retrosp_plan:entity_82 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_130,
+        retrosp_plan:entity_131,
+        retrosp_plan:entity_82 ;
+    prov:wasAssociatedWith retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_80 ;
+    ep-plan:correspondsToStep prosp_plan:step_46 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_88 a exact2:Measure,
+        ep-plan:Activity ;
+    rdfs:label "analyse non-stimulated cells with [Device] LSM780 and [Software] ZEN 2011 (black edition):"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_117,
+        retrosp_plan:entity_137,
+        retrosp_plan:entity_142 ;
+    obo:BFO_0000086 retrosp_plan:entity_138,
+        retrosp_plan:entity_139 ;
+    prov:startedAtTime "12:40"^^xsd:string ;
+    prov:used retrosp_plan:entity_117,
+        retrosp_plan:entity_137,
+        retrosp_plan:entity_138,
+        retrosp_plan:entity_139,
+        retrosp_plan:entity_142 ;
+    prov:wasAssociatedWith retrosp_plan:agent_4,
+        retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_87 ;
+    ep-plan:correspondsToStep prosp_plan:step_53 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_101 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
+        ep-plan:Entity ;
+    rdfs:label "[Buffer] CASYton: Schärfe System"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_37 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_102 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "cup of [Device] CASY cell counter"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_38 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_104 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
+        ep-plan:Entity ;
+    rdfs:label "cup of [Device] CASY cell counter with buffer"^^xsd:string ;
+    prov:wasGeneratedBy retrosp_plan:activity_62 ;
+    ep-plan:correspondsToVariable prosp_plan:var_40 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_105 a obo:PATO_0000918,
+        ep-plan:Entity ;
+    rdfs:label "100µl"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_41 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_106 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
+        ep-plan:Entity ;
+    rdfs:label "100µl of cell suspension"^^xsd:string ;
+    prov:wasGeneratedBy retrosp_plan:activity_63 ;
+    ep-plan:correspondsToVariable prosp_plan:var_42 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_107 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
+        ep-plan:Entity ;
+    rdfs:label "cup of [Device] CASY cell counter with buffer and cell solution"^^xsd:string ;
+    prov:wasGeneratedBy retrosp_plan:activity_64 ;
+    ep-plan:correspondsToVariable prosp_plan:var_43 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_110 a obo:PATO_0000918,
+        ep-plan:Entity ;
+    rdfs:label "1.535ml"^^xsd:string ;
+    prov:wasGeneratedBy retrosp_plan:activity_66 ;
+    ep-plan:correspondsToVariable prosp_plan:var_46 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_113 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "Eppendorf Centrifuge"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_49 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_120 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
+        ep-plan:Entity ;
+    rdfs:label "EtOH (Ethanol)"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_56 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_121 a obo:PATO_0000918,
+        ep-plan:Entity ;
+    rdfs:label "4ml"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_58 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_122 a ep-plan:Entity ;
+    rdfs:label "37°C"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_59 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_123 a ep-plan:Entity ;
+    rdfs:label "0.2ml"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_61 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_124 a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857,
+        ep-plan:Entity ;
+    rdfs:label "2 h"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_62 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_125 a obo:PATO_0000146,
+        ep-plan:Entity ;
+    rdfs:label "37°C"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_63 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_126 a exact2:Class_83,
+        ep-plan:Entity ;
+    rdfs:label "5% CO2"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_64 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_130 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
+        ep-plan:Entity ;
+    rdfs:label "7ml: 50% isotonic HEPES buffered saline + 50% hypotonic HEPES buffered saline"^^xsd:string ;
+    prov:wasGeneratedBy retrosp_plan:activity_80 ;
+    ep-plan:correspondsToVariable prosp_plan:var_68 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_134 a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857,
+        ep-plan:Entity ;
+    rdfs:label "30min"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_72 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_83 a obo:PATO_0000146,
+        ep-plan:Entity ;
+    rdfs:label "Room temperature"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_13 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_90 a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857,
+        ep-plan:Entity ;
+    rdfs:label "5 min"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_23 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_91 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "[Device] SANYO CO2 Incubator"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_24 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_92 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "[Device] Mobini chamber Electrodes"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_25 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_93 a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857,
+        ep-plan:Entity ;
+    rdfs:label "20 min"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_27 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_94 a obo:PATO_0000146,
+        ep-plan:Entity ;
+    rdfs:label "37°C"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_28 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_95 a exact2:Class_83,
+        ep-plan:Entity ;
+    rdfs:label "5%"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_29 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_97 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "Stimulation device"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_31 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_99 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "[cultivation container] Tube: 10ml"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_35 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+exact2:Class_63 a owl:Class ;
+    rdfs:label "experimental procedure"^^xsd:string ;
+    rdfs:comment """"A set of instructions for performing a specific task"
+[http://dictionary.oed.com/cgi/entry/50189128?single=1&query_type=word&queryword=procedure&first=1&max_to_show=10]"""^^xsd:string ;
+    rdfs:subClassOf obo:BFO_0000007 .
+
+exact2:Class_68 a owl:Class ;
+    rdfs:label "protocol method"^^xsd:string ;
+    rdfs:comment "the description of a technique and technical considerations for a procedure, ‘sterile technique’. A protocol method is usually already familiar to a typical user of a protocol; the method is stored in the knowledge base."^^xsd:string ;
+    rdfs:subClassOf exact2:OWLClass_8029e3a4_312f_4130_827e_d330da199ea9 .
+
+exact2:Measure a owl:Class ;
+    rdfs:label "measure" ;
+    exact2:is_definition """is an experimental action to make a measurement; to moderate, regulate; to make proportional or commensurate; to quantify 
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:Class_66 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000001 ],
+        exact2:Class_89 .
+
+exact2:OWLClass_aa788dcd_414c_4fdc_8714_55549190d2b7 a owl:Class ;
+    rdfs:label "(optional) period"@en ;
+    rdfs:comment "a time interval specified for an experimental action" ;
+    rdfs:subClassOf exact2:OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7 .
+
+exact2:OWLClass_b8241e01_b952_4810_bf2d_43ec10dd9db6 a owl:Class ;
+    rdfs:label "(optional) temperature"@en ;
+    obo:IAO_0000412 <http://www.owl-ontologies.com/Ontology1184060740.owl> ;
+    rdfs:subClassOf exact2:OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7 .
+
+exact2:OWLObjectProperty_be19e6ab_5d59_4e00_8a0b_66e0e2fbd057 a owl:ObjectProperty ;
+    rdfs:label "has quantity"@en ;
+    rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a .
+
+exact2:reduce_contamination a exact2:Class_14,
+        owl:NamedIndividual .
+
+obo:BFO_0000007 rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_aa788dcd_414c_4fdc_8714_55549190d2b7 ] .
+
+obo:BFO_0000040 rdfs:subClassOf exact2:OWLClass_8029e3a4_312f_4130_827e_d330da199ea9 .
+
+obo:PATO_0000819 rdfs:subClassOf exact2:OWLClass_8029e3a4_312f_4130_827e_d330da199ea9 .
+
+retrosp_plan:activity_49 a exact2:Remove,
+        ep-plan:Activity ;
+    rdfs:label "take out from freezer"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_72,
+        retrosp_plan:entity_81,
+        retrosp_plan:entity_82 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_80 ;
+    prov:wasInformedBy retrosp_plan:activity_48 ;
+    ep-plan:correspondsToStep prosp_plan:step_5 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_87 a exact2:Measure,
+        ep-plan:Activity ;
+    rdfs:label "analyse stimulated cells with [Device] LSM780 and [Software] ZEN 2011 (black edition):"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_114,
+        retrosp_plan:entity_137,
+        retrosp_plan:entity_142 ;
+    obo:BFO_0000086 retrosp_plan:entity_138,
+        retrosp_plan:entity_139 ;
+    prov:startedAtTime "12:30"^^xsd:string ;
+    prov:used retrosp_plan:entity_114,
+        retrosp_plan:entity_137,
+        retrosp_plan:entity_138,
+        retrosp_plan:entity_139,
+        retrosp_plan:entity_142 ;
+    prov:wasAssociatedWith retrosp_plan:agent_4,
+        retrosp_plan:agent_5 ;
+    prov:wasInformedBy retrosp_plan:activity_86 ;
+    ep-plan:correspondsToStep prosp_plan:step_52 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_81 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
+        ep-plan:Entity ;
+    rdfs:label "[Nucleotide] ATP "^^xsd:string ;
+    prov:wasGeneratedBy retrosp_plan:activity_49 ;
+    ep-plan:correspondsToVariable prosp_plan:var_11 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_89 a obo:PATO_0000146,
+        ep-plan:Entity ;
+    rdfs:label "37°C"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_22 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+exact2:Class_121 a owl:Class ;
+    rdfs:label "alert message"^^xsd:string ;
+    obo:IAO_0000115 "a textual entity such as a warning or a caution that can be ignored by an automatic agent. The goal of an alert is to remind or alert the user." ;
+    rdfs:comment ""^^xsd:string,
+        "a textual entity such as a warning or a caution that can be ignored by an automatic agent. The goal is to remind or alert the user." ;
+    rdfs:subClassOf obo:IAO_0000300 .
+
+exact2:Class_21 a owl:Class ;
+    rdfs:label "swirl"^^xsd:string ;
+    exact2:is_definition " is an experimental action to shake fluid in constant circular or semicircular motion"^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        exact2:Class_89 .
+
+exact2:Class_50 a owl:Class ;
+    rdfs:label "heat"^^xsd:string ;
+    exact2:Synonym "\"Warm\"" ;
+    exact2:is_definition """is an experimental action “to raise the temperature of” 
+Reference:based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000146 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+        exact2:Class_89 .
+
+exact2:recover_yeast a exact2:Class_14,
+        owl:NamedIndividual .
+
+obo:PATO_0000356 rdfs:subClassOf obo:PATO_0000819 .
+
+retrosp_plan:activity_45 a exact2:Remove,
+        ep-plan:Activity ;
+    rdfs:label "take out from fridge:"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_72,
+        retrosp_plan:entity_73,
+        retrosp_plan:entity_74,
+        retrosp_plan:entity_75 ;
+    prov:startedAtTime "8:40"^^xsd:string ;
+    prov:used retrosp_plan:entity_72 ;
+    prov:wasAssociatedWith retrosp_plan:agent_4 ;
+    ep-plan:correspondsToStep prosp_plan:step_1 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:activity_47 a exact2:Remove,
+        ep-plan:Activity ;
+    rdfs:label "take out from fridge:"^^xsd:string ;
+    obo:BFO_0000057 retrosp_plan:entity_72,
+        retrosp_plan:entity_77,
+        retrosp_plan:entity_78,
+        retrosp_plan:entity_79 ;
+    prov:startedAtTime "immediately afterwards"^^xsd:string ;
+    prov:used retrosp_plan:entity_72 ;
+    prov:wasInformedBy retrosp_plan:activity_46 ;
+    ep-plan:correspondsToStep prosp_plan:step_3 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_132 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
+        ep-plan:Entity ;
+    rdfs:label "Buffer mix with staining solution"^^xsd:string ;
+    prov:wasGeneratedBy retrosp_plan:activity_81 ;
+    ep-plan:correspondsToVariable prosp_plan:var_70 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_137 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "[Device] LSM780"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_75 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_138 a obo:PATO_0000001,
+        ep-plan:Entity ;
+    rdfs:label "Stimulus"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_76 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_139 a obo:PATO_0000001,
+        ep-plan:Entity ;
+    rdfs:label "Gain (master))"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_77 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_142 a ep-plan:Entity ;
+    rdfs:label "[Software] ZEN 2011 (black edition)"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_80 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_76 a obo:PATO_0000146,
+        ep-plan:Entity ;
+    rdfs:label "37°C"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_5 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+<http://www.owl-ontologies.com/Ontology1184060740.owl> a owl:Ontology ;
+    owl:imports <http://ontofox.hegroup.org/cuq3yg8u.owl>,
+        <http://ontofox.hegroup.org/mrh5qabf.owl>,
+        <http://ontofox.hegroup.org/ztx3ioxo.owl> .
+
+exact2:Class_19 a owl:Class ;
+    rdfs:label "aspirate"^^xsd:string ;
+    exact2:is_definition """is an experimental action to draw in or remove a liquid by suction
+Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publishers, Glasgow, 1993."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        exact2:Class_89 .
+
+exact2:Class_49 a owl:Class ;
+    rdfs:label "incubate"^^xsd:string ;
+    exact2:is_definition "is an experimental action to maintain specified environmental conditions in order to promote a chemical reaction or growth of a microorganism; to cause to develop in an incubator or culture medium"^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000086 ;
+            owl:someValuesFrom obo:PATO_0000146 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:Class_83 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+        exact2:Class_89 .
+
+exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 a owl:Class ;
+    rdfs:label "(optional) protocol method"@en ;
+    rdfs:comment "the description of a technique and technical considerations for a procedure, ‘sterile technique’. A protocol method is usually already familiar to a typical user of a protocol; the method is stored in the knowledge base." ;
+    rdfs:subClassOf exact2:OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7 .
+
+exact2:store_longer a exact2:Class_14,
+        owl:NamedIndividual .
+
+obo:PATO_0000001 rdfs:subClassOf exact2:OWLClass_8029e3a4_312f_4130_827e_d330da199ea9 .
+
+retrosp_plan:entity_72 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "Fridge"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_1 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_74 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
+        ep-plan:Entity ;
+    rdfs:label "hypotonic HEPES buffered saline"^^xsd:string ;
+    prov:attributedTo retrosp_plan:agent_4 ;
+    prov:wasGeneratedBy retrosp_plan:activity_45 ;
+    ep-plan:correspondsToVariable prosp_plan:var_3 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_77 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
+        ep-plan:Entity ;
+    rdfs:label "Culture medium and serum: 89% [Culture Medium] DMEM + 10% [Serum] FCS + 1% [Antibiotic] Gentamicin (Attributed to Petra Seidel)"^^xsd:string ;
+    prov:wasGeneratedBy retrosp_plan:activity_47 ;
+    ep-plan:correspondsToVariable prosp_plan:var_7 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_78 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
+        ep-plan:Entity ;
+    rdfs:label "[Enzyme] Trypsin/EDTA "^^xsd:string ;
+    prov:wasGeneratedBy retrosp_plan:activity_47 ;
+    ep-plan:correspondsToVariable prosp_plan:var_8 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_82 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
+        ep-plan:Entity ;
+    rdfs:label "[Indicator] Fluo-3/AM"^^xsd:string ;
+    prov:wasGeneratedBy retrosp_plan:activity_49 ;
+    ep-plan:correspondsToVariable prosp_plan:var_12 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+exact2:prevent_condensation_build_up a exact2:Class_14,
+        owl:NamedIndividual .
+
+retrosp_plan:entity_79 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
+        ep-plan:Entity ;
+    rdfs:label "[culture medium] DMEM without phenolred, pyruvate + 10% [Serum] FCS + 1% [Antibiotic] Gentamicin (Attributed to MGe)"^^xsd:string ;
+    prov:wasGeneratedBy retrosp_plan:activity_47 ;
+    ep-plan:correspondsToVariable prosp_plan:var_9 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+exact2:Class_122 a owl:Class ;
+    rdfs:label "caution"^^xsd:string ;
+    rdfs:comment "an alert message given to a user of a protocol about potentially dangerous properties of materials used in the experiment."^^xsd:string ;
+    rdfs:subClassOf exact2:Class_121 .
+
+exact2:Remove a owl:Class ;
+    rdfs:label "remove" ;
+    exact2:Synonym """"Take off"
+"Pipette off\"""" ;
+    exact2:is_definition """is an experimental action "to move or take (something) away from a place" 
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        exact2:Class_89 .
+
+exact2:maintain_sterility a exact2:Class_14,
+        owl:NamedIndividual .
+
+retrosp_plan:entity_73 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
+        ep-plan:Entity ;
+    rdfs:label "isotonic HEPES buffered saline"^^xsd:string ;
+    prov:attributedTo retrosp_plan:agent_4 ;
+    prov:wasGeneratedBy retrosp_plan:activity_45 ;
+    ep-plan:correspondsToVariable prosp_plan:var_2 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+exact2:Class_14 a owl:Class ;
+    rdfs:label "goal of experiment action"^^xsd:string ;
+    rdfs:comment """A goal of experiment action is the state that a plan of actions is intended to achieve. 
+Reference: Based on  WordNet: http://www.cogsci.princeton.edu/cgi-bin/webwn2.0?stage=1&word=goal+"""^^xsd:string ;
+    rdfs:subClassOf exact2:OWLClass_8029e3a4_312f_4130_827e_d330da199ea9 .
+
+exact2:prevent_drying_of_YPD_agar a exact2:Class_14,
+        owl:NamedIndividual .
+
+retrosp_plan:agent_4 a prov:Agent ;
+    rdfs:label "Susanne Staehlke"^^xsd:string ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_75 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
+        ep-plan:Entity ;
+    rdfs:label "[Washing solution] PBS without Ca/Mg"^^xsd:string ;
+    prov:wasGeneratedBy retrosp_plan:activity_45 ;
+    ep-plan:correspondsToVariable prosp_plan:var_4 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+exact2:OWLClass_8029e3a4_312f_4130_827e_d330da199ea9 a owl:Class ;
+    rdfs:label "descriptor of experimental action"@en ;
+    rdfs:comment "essential information about the experimental action. The experimental action can not be performed adequately without such essential information." .
+
+exact2:Class_83 a owl:Class ;
+    rdfs:label "condition"^^xsd:string ;
+    rdfs:comment "A condition is a statement to be checked."^^xsd:string ;
+    rdfs:subClassOf exact2:OWLClass_8029e3a4_312f_4130_827e_d330da199ea9 .
+
+retrosp_plan:entity_100 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
+        ep-plan:Entity ;
+    rdfs:label "Tube with cell suspension inside"^^xsd:string ;
+    prov:wasGeneratedBy retrosp_plan:activity_61 ;
+    ep-plan:correspondsToVariable prosp_plan:var_36 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+exact2:Class_9 a owl:Class ;
+    rdfs:label "add"^^xsd:string ;
+    exact2:is_definition """is an experimental action “to join or unite a component to another so as to increase the number, quantity in the container. The end container is the same for all components”
+Reference: based on THE OXFORD ENGLISH DICTIONARY (1989) OXFORD UNIVERSITY PRESS, 2 ED."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:Class_66 ],
+        [ a owl:Restriction ;
+            owl:onProperty obo:BFO_0000057 ;
+            owl:someValuesFrom exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        exact2:Class_89 .
+
+exact2:OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7 a owl:Class ;
+    rdfs:label "optional descriptor of experimental action"@en ;
+    rdfs:comment "optional information about the experimental action. The experimental action can be performed adequately without such information, but the descriptor helps understanding of how to perform the action." ;
+    owl:disjointWith exact2:OWLClass_8029e3a4_312f_4130_827e_d330da199ea9 .
+
+exact2:OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b a owl:Class ;
+    rdfs:label "deprecated entity"@en .
+
+exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f a owl:Class ;
+    rdfs:label "(optional) condition"@en ;
+    rdfs:comment "A condition (optional) is a statement to be checked." ;
+    rdfs:subClassOf exact2:OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7 .
+
+exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 a owl:Class ;
+    rdfs:label "period"@en ;
+    obo:IAO_0000115 "is a time interval that is essential for the description of an experimental action" ;
+    rdfs:comment "a time interval specified for an experimental action" ;
+    rdfs:subClassOf obo:BFO_0000038 .
+
+exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a a owl:ObjectProperty ;
+    rdfs:label "has relation"@en .
+
+retrosp_plan:entity_85 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "T25 Flask"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_17 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_86 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "T25 Flask"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_18 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_87 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "T25 Flask"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_19 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b a owl:Class ;
+    rdfs:label "(optional) equipment"@en ;
+    rdfs:comment "experiment equipment (optional)  is the set of tools, devices, materials, computer systems assembled for performing the experiment. Reference: following Collins Softback English Dictionary, HarperCollins Publishers, Glasgow, 1993." ;
+    rdfs:subClassOf exact2:OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7 .
+
+obo:BFO_0000086 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a .
+
+retrosp_plan:entity_115 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "Well A2"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_51 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_116 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "Well A3"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_52 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_118 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "Well B2"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_54 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_119 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "Well B3"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_55 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_114 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "Well A1"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_50 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+retrosp_plan:entity_117 a exact2:Class_66,
+        ep-plan:Entity ;
+    rdfs:label "Well B1"^^xsd:string ;
+    ep-plan:correspondsToVariable prosp_plan:var_53 ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+exact2:Class_66 a owl:Class ;
+    rdfs:label "equipment"^^xsd:string ;
+    rdfs:comment " is the set of tools, devices, materials, computer systems assembled for performing the experiment. Reference: following Collins Softback English Dictionary, HarperCollins Publishers, Glasgow, 1993."^^xsd:string ;
+    rdfs:subClassOf obo:BFO_0000040 .
+
+retrosp_plan:agent_5 a prov:Agent ;
+    rdfs:label "MGe"^^xsd:string ;
+    ep-plan:isElementOfTrace retrosp_plan:exp_2 .
+
+exact2:objectProperty_3 a owl:ObjectProperty ;
+    rdfs:label "has proposition"^^xsd:string ;
+    rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a .
+
+exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 a owl:Class ;
+    rdfs:label "biochemical entity"@en ;
+    rdfs:comment "biochemical entities for a particular experimental procedures should be imported from external resources, e.g. ChEBI " ;
+    rdfs:subClassOf obo:BFO_0000040 .
+
+exact2:Class_89 a owl:Class ;
+    rdfs:label "experimental action"^^xsd:string ;
+    rdfs:comment """an action is “the process of doing something or being active”
+Reference: Collins Softback English Dictionary, HarperCollins Publishers, Glasgow, 1993."""^^xsd:string ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty exact2:objectProperty_3 ;
+            owl:someValuesFrom exact2:OWLClass_f37c8bc0_049a_448c_a917_a947f6104ac6 ],
+        obo:BFO_0000007 .
+
+obo:BFO_0000057 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a .
+
+retrosp_plan:exp_2 a ep-plan:ExecutionTraceBundle ;
+    prov:wasDerivedFrom prosp_plan:plan_1 ;
+    ep-plan:includesObjective [ a ep-plan:Objective ;
+            rdfs:label "Intracellular calcium dynamics caused by electric fields - Mobini chamber"^^xsd:string ] .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( exact2:e ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( exact2:ensure_homogeneous_solution exact2:maintain_sterility exact2:prevent_condensation_build_up exact2:prevent_drying_of_YPD_agar exact2:recover_yeast exact2:reduce_contamination exact2:store_longer ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( exact2:ii ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( exact2:maintain_sterility exact2:prevent_condensation_build_up exact2:prevent_drying_of_YPD_agar ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( exact2:maintain_sterility exact2:prevent_condensation_build_up exact2:prevent_drying_of_YPD_agar exact2:recover_yeast exact2:reduce_contamination exact2:store_longer ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( exact2:maintain_sterility exact2:prevent_condensation_build_up exact2:prevent_drying_of_YPD_agar exact2:recover_yeast exact2:store_longer ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( exact2:maintain_sterility exact2:prevent_condensation_build_up exact2:prevent_drying_of_YPD_agar exact2:store_longer ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( exact2:maintain_sterility exact2:prevent_drying_of_YPD_agar ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( exact2:prevent_drying_of_YPD_agar ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( exact2:t ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( exact2:weign_12 ) .
+
