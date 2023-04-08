@@ -1131,10 +1131,6 @@ obo:OBI_0000312 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_a
 
 obo:OBI_0000833 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a .
 
-prosp_plan:plan_1 dct:hasVersion [ a obo:IAO_0000129,
-                exact2:OWLClass_870d9f06_a65a_415d_b7cc_e1dbbbcc9b2c ;
-            rdfs:label "0.2.0"^^xsd:string ] .
-
 retrosp_plan:activity_46 a exact2:Class_50,
         ep-plan:Activity ;
     rdfs:label "warm up to 37°C:"^^xsd:string ;
@@ -2757,6 +2753,9 @@ Reference: Collins Softback English Dictionary, HarperCollins Publishers, Glasgo
 obo:BFO_0000057 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a .
 
 retrosp_plan:exp_2 a ep-plan:ExecutionTraceBundle ;
+    dct:hasVersion [ a obo:IAO_0000129,
+                exact2:OWLClass_870d9f06_a65a_415d_b7cc_e1dbbbcc9b2c ;
+            rdfs:label "0.2.0"^^xsd:string ] ;
     prov:wasDerivedFrom prosp_plan:plan_1 ;
     ep-plan:includesObjective [ a ep-plan:Objective ;
             rdfs:label "Intracellular calcium dynamics caused by electric fields - Mobini chamber"^^xsd:string ] .

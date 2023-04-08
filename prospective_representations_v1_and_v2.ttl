@@ -65,8 +65,8 @@ prosp_plan:step_18 a exact2:Store,
         prosp_plan:var_4 ;
     obo:BFO_0000086 [ a obo:PATO_0000146 ],
         prosp_plan:var_28 ;
-    exact2:objectProperty_3 [ a exact2:Class_83 ],
-        [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+    exact2:objectProperty_3 [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+        [ a exact2:Class_83 ],
         prosp_plan:var_27,
         prosp_plan:var_29 ;
     ep-plan:hasInputVariable prosp_plan:var_27,
@@ -136,8 +136,8 @@ prosp_plan:step_30 a exact2:Class_60,
 prosp_plan:step_36 a exact2:Class_49,
         ep-plan:Step ;
     rdfs:label "incubate at 37°C"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
-        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
         prosp_plan:var_50,
         prosp_plan:var_51,
         prosp_plan:var_52,
@@ -146,8 +146,8 @@ prosp_plan:step_36 a exact2:Class_49,
         prosp_plan:var_55 ;
     obo:BFO_0000086 [ a obo:PATO_0000146 ],
         prosp_plan:var_59 ;
-    exact2:objectProperty_3 [ a exact2:Class_83 ],
-        [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
+    exact2:objectProperty_3 [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
+        [ a exact2:Class_83 ],
         [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ] ;
     ep-plan:hasInputVariable prosp_plan:var_50,
         prosp_plan:var_51,
@@ -249,8 +249,8 @@ prosp_plan:step_49 a exact2:Class_49,
         prosp_plan:var_55 ;
     obo:BFO_0000086 [ a obo:PATO_0000146 ],
         prosp_plan:var_73 ;
-    exact2:objectProperty_3 [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
-        [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
+    exact2:objectProperty_3 [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
+        [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
         [ a exact2:Class_83 ],
         prosp_plan:var_72 ;
     ep-plan:hasInputVariable prosp_plan:var_50,
@@ -293,8 +293,8 @@ prosp_plan:step_51 a exact2:Class_9,
 prosp_plan:step_52 a exact2:Measure,
         ep-plan:Step ;
     rdfs:label "analyse stimulated cells with Confocal Laser scanning microcope and analysis software "^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:Class_66 ],
-        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a exact2:Class_66 ],
         prosp_plan:var_50,
         prosp_plan:var_75,
         prosp_plan:var_80 ;
@@ -342,8 +342,8 @@ prosp_plan:step_6 a exact2:Class_50,
         prosp_plan:var_12 ;
     obo:BFO_0000086 [ a obo:PATO_0000146 ],
         prosp_plan:var_13 ;
-    exact2:objectProperty_3 [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
-        [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ] ;
+    exact2:objectProperty_3 [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+        [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ] ;
     ep-plan:hasInputVariable prosp_plan:var_11,
         prosp_plan:var_12,
         prosp_plan:var_13 ;
@@ -1536,8 +1536,8 @@ prosp_plan:step_11 a exact2:Class_21,
         prosp_plan:var_17,
         prosp_plan:var_18,
         prosp_plan:var_19 ;
-    exact2:objectProperty_3 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
-        [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ] ;
+    exact2:objectProperty_3 [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ] ;
     ep-plan:hasInputVariable prosp_plan:var_17,
         prosp_plan:var_18,
         prosp_plan:var_19 ;
@@ -1591,8 +1591,8 @@ prosp_plan:step_16 a exact2:Class_49,
     obo:BFO_0000086 [ a obo:PATO_0000146 ],
         prosp_plan:var_22 ;
     exact2:objectProperty_3 [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
-        [ a exact2:Class_83 ],
-        [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ] ;
+        [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
+        [ a exact2:Class_83 ] ;
     ep-plan:hasInputVariable prosp_plan:var_15,
         prosp_plan:var_22,
         prosp_plan:var_23,
@@ -1604,16 +1604,16 @@ prosp_plan:step_16 a exact2:Class_49,
 prosp_plan:step_17 a exact2:Class_49,
         ep-plan:Step ;
     rdfs:label "incubate 5min Incubator at 37°C"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
-        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
         prosp_plan:var_15,
         prosp_plan:var_22,
         prosp_plan:var_23,
         prosp_plan:var_24 ;
     obo:BFO_0000086 [ a obo:PATO_0000146 ],
         prosp_plan:var_22 ;
-    exact2:objectProperty_3 [ a exact2:Class_83 ],
-        [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+    exact2:objectProperty_3 [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+        [ a exact2:Class_83 ],
         [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ] ;
     ep-plan:hasInputVariable prosp_plan:var_15,
         prosp_plan:var_22,
@@ -1626,8 +1626,8 @@ prosp_plan:step_17 a exact2:Class_49,
 prosp_plan:step_20 a exact2:Class_9,
         ep-plan:Step ;
     rdfs:label "stop the reaction with 4.5ml Culture Medium DMEM and serum: 89% + 10% [Serum] FCS + 1% [Antibiotic] Gentamicin "^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:Class_66 ],
-        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a exact2:Class_66 ],
         prosp_plan:var_15,
         prosp_plan:var_7 ;
     exact2:objectProperty_3 [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ] ;
@@ -1662,8 +1662,8 @@ prosp_plan:step_22 a exact2:Class_57,
     rdfs:label "resuspend well to separate cells"^^xsd:string ;
     obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
         prosp_plan:var_15 ;
-    obo:BFO_0000086 [ a obo:PATO_0000918 ],
-        [ a exact2:OWLClass_b8241e01_b952_4810_bf2d_43ec10dd9db6 ] ;
+    obo:BFO_0000086 [ a exact2:OWLClass_b8241e01_b952_4810_bf2d_43ec10dd9db6 ],
+        [ a obo:PATO_0000918 ] ;
     ep-plan:hasInputVariable prosp_plan:var_15 ;
     ep-plan:isElementOfPlan prosp_plan:plan_9 ;
     ep-plan:isPrecededBy prosp_plan:step_20 ;
@@ -1676,8 +1676,8 @@ prosp_plan:step_23 a exact2:Class_57,
         prosp_plan:var_17,
         prosp_plan:var_18,
         prosp_plan:var_19 ;
-    obo:BFO_0000086 [ a exact2:OWLClass_b8241e01_b952_4810_bf2d_43ec10dd9db6 ],
-        [ a obo:PATO_0000918 ] ;
+    obo:BFO_0000086 [ a obo:PATO_0000918 ],
+        [ a exact2:OWLClass_b8241e01_b952_4810_bf2d_43ec10dd9db6 ] ;
     ep-plan:hasInputVariable prosp_plan:var_17,
         prosp_plan:var_18,
         prosp_plan:var_19 ;
@@ -1782,8 +1782,8 @@ prosp_plan:step_3 a exact2:Remove,
 prosp_plan:step_31 a exact2:Class_53,
         ep-plan:Step ;
     rdfs:label "centrifugate the suspended cells in [Cultivation container] Tube: 10ml  for 5 min at 1,200 rpm using [Device] Eppendorf Centrifuge "^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
-        [ a exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+    obo:BFO_0000057 [ a exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
         prosp_plan:var_36,
         prosp_plan:var_49 ;
     ep-plan:hasInputVariable prosp_plan:var_36,
@@ -1811,8 +1811,8 @@ prosp_plan:step_32 a exact2:Class_19,
 prosp_plan:step_33 a exact2:Class_9,
         ep-plan:Step ;
     rdfs:label "add 2,79 ml of culture medium (free) and serum: 89% [culture medium] DMEM without phenolred, pyruvate + 10% [Serum] FCS + 1% [Antibiotic] Gentamicin"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:Class_66 ],
-        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a exact2:Class_66 ],
         prosp_plan:var_36,
         prosp_plan:var_9 ;
     exact2:objectProperty_3 [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
@@ -1870,8 +1870,8 @@ prosp_plan:step_35 a exact2:Class_9,
 prosp_plan:step_37 a exact2:Class_9,
         ep-plan:Step ;
     rdfs:label "add in all wells  0.3 ml of cell solution"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
-        [ a exact2:Class_66 ],
+    obo:BFO_0000057 [ a exact2:Class_66 ],
+        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
         prosp_plan:var_36,
         prosp_plan:var_50,
         prosp_plan:var_51,
@@ -1930,9 +1930,9 @@ prosp_plan:step_40 a exact2:Class_49,
         prosp_plan:var_55 ;
     obo:BFO_0000086 [ a obo:PATO_0000146 ],
         prosp_plan:var_63 ;
-    exact2:objectProperty_3 [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
+    exact2:objectProperty_3 [ a exact2:Class_83 ],
+        [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
         [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
-        [ a exact2:Class_83 ],
         prosp_plan:var_62,
         prosp_plan:var_64 ;
     ep-plan:hasInputVariable prosp_plan:var_50,
@@ -1978,8 +1978,8 @@ prosp_plan:step_41 a exact2:Remove,
 prosp_plan:step_42 a exact2:Class_9,
         ep-plan:Step ;
     rdfs:label "add PBS,"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
-        [ a exact2:Class_66 ],
+    obo:BFO_0000057 [ a exact2:Class_66 ],
+        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
         prosp_plan:var_4,
         prosp_plan:var_50,
         prosp_plan:var_51,
@@ -2008,8 +2008,8 @@ prosp_plan:step_43 a exact2:Class_21,
         prosp_plan:var_53,
         prosp_plan:var_54,
         prosp_plan:var_55 ;
-    exact2:objectProperty_3 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
-        [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ] ;
+    exact2:objectProperty_3 [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ] ;
     ep-plan:hasInputVariable prosp_plan:var_50,
         prosp_plan:var_51,
         prosp_plan:var_52,
@@ -2026,8 +2026,8 @@ prosp_plan:step_45 a exact2:Class_45,
     obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
         prosp_plan:var_2,
         prosp_plan:var_3 ;
-    exact2:objectProperty_3 [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
-        [ a exact2:Class_68 ],
+    exact2:objectProperty_3 [ a exact2:Class_68 ],
+        [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
         prosp_plan:var_65,
         prosp_plan:var_66,
         prosp_plan:var_67 ;
@@ -2046,8 +2046,8 @@ prosp_plan:step_45 a exact2:Class_45,
 prosp_plan:step_46 a exact2:Class_9,
         ep-plan:Step ;
     rdfs:label "add 35µl [Indicator] Fluo-3/AM (make sure it is dark, no ambient light) "^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:Class_66 ],
-        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a exact2:Class_66 ],
         prosp_plan:var_12,
         prosp_plan:var_68 ;
     exact2:objectProperty_3 [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ] ;
@@ -2142,8 +2142,8 @@ prosp_plan:step_7alternative_in_v2__1 a exact2:Class_19,
 prosp_plan:step_8 a exact2:Class_9,
         ep-plan:Step ;
     rdfs:label "add PBS"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:Class_66 ],
-        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a exact2:Class_66 ],
         prosp_plan:var_15,
         prosp_plan:var_4 ;
     exact2:objectProperty_3 [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ] ;
@@ -3062,7 +3062,7 @@ prosp_plan:plan_2 a ep-plan:Plan ;
     dct:hasVersion [ a obo:IAO_0000129,
                 exact2:OWLClass_870d9f06_a65a_415d_b7cc_e1dbbbcc9b2c ;
             rdfs:label "0.2.0"^^xsd:string ] ;
-    dct:identifier "n3QqcqX9"^^xsd:string ;
+    dct:identifier "7J8u512w"^^xsd:string ;
     prov:wasDerivedFrom prosp_plan:plan_1 ;
     ep-plan:includesObjective [ a ep-plan:Objective ;
             rdfs:label "Intracellular calcium dynamics caused by electric fields - Mobini chamber"^^xsd:string ] .
@@ -3095,7 +3095,7 @@ prosp_plan:plan_1 a ep-plan:Plan ;
     dct:hasVersion [ a obo:IAO_0000129,
                 exact2:OWLClass_870d9f06_a65a_415d_b7cc_e1dbbbcc9b2c ;
             rdfs:label "0.1.0"^^xsd:string ] ;
-    dct:identifier "n3QqcqX9"^^xsd:string ;
+    dct:identifier "7J8u512w"^^xsd:string ;
     ep-plan:includesObjective [ a ep-plan:Objective ;
             rdfs:label "Intracellular calcium dynamics caused by electric fields - Mobini chamber"^^xsd:string ] .
 
