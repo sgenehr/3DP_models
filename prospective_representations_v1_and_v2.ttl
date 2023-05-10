@@ -40,9 +40,9 @@ prosp_plan:step_12 a exact2:Class_19,
     obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
         prosp_plan:var_15 ;
     ep-plan:hasInputVariable prosp_plan:var_15 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_12 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_9 ;
     ep-plan:isPrecededBy prosp_plan:step_10 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_12 .
+    ep-plan:isStepOfPlan prosp_plan:plan_9 .
 
 prosp_plan:step_13 a exact2:Class_19,
         ep-plan:Step ;
@@ -54,9 +54,9 @@ prosp_plan:step_13 a exact2:Class_19,
     ep-plan:hasInputVariable prosp_plan:var_17,
         prosp_plan:var_18,
         prosp_plan:var_19 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_13 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_10 ;
     ep-plan:isPrecededBy prosp_plan:step_11 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_13 .
+    ep-plan:isStepOfPlan prosp_plan:plan_10 .
 
 prosp_plan:step_18 a exact2:Store,
         ep-plan:Step ;
@@ -74,8 +74,8 @@ prosp_plan:step_18 a exact2:Store,
         prosp_plan:var_29,
         prosp_plan:var_30,
         prosp_plan:var_4 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_15 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_15 .
+    ep-plan:isElementOfPlan prosp_plan:plan_11 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_11 .
 
 prosp_plan:step_19 a exact2:OWLClass_0c157e1a_5e12_448e_a95e_57cef7e77031,
         ep-plan:Step ;
@@ -86,8 +86,8 @@ prosp_plan:step_19 a exact2:OWLClass_0c157e1a_5e12_448e_a95e_57cef7e77031,
         prosp_plan:var_32 ;
     ep-plan:hasInputVariable prosp_plan:var_31 ;
     ep-plan:hasOutputVariable prosp_plan:var_32 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_15 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_15 .
+    ep-plan:isElementOfPlan prosp_plan:plan_11 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_11 .
 
 prosp_plan:step_2 a exact2:Class_50,
         ep-plan:Step ;
@@ -104,24 +104,24 @@ prosp_plan:step_2 a exact2:Class_50,
         prosp_plan:var_3,
         prosp_plan:var_4,
         prosp_plan:var_5 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_5 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_4 ;
     ep-plan:isPrecededBy prosp_plan:step_1 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_5 .
+    ep-plan:isStepOfPlan prosp_plan:plan_4 .
 
 prosp_plan:step_28 a exact2:Class_9,
         ep-plan:Step ;
     rdfs:label "into cup of [Device] CASY cell counter with buffer"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
-        [ a exact2:Class_66 ],
+    obo:BFO_0000057 [ a exact2:Class_66 ],
+        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
         prosp_plan:var_40,
         prosp_plan:var_42 ;
     exact2:objectProperty_3 [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ] ;
     ep-plan:hasInputVariable prosp_plan:var_40,
         prosp_plan:var_42 ;
     ep-plan:hasOutputVariable prosp_plan:var_43 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_17 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_12 ;
     ep-plan:isPrecededBy prosp_plan:step_27 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_17 .
+    ep-plan:isStepOfPlan prosp_plan:plan_12 .
 
 prosp_plan:step_30 a exact2:Class_60,
         ep-plan:Step ;
@@ -129,15 +129,15 @@ prosp_plan:step_30 a exact2:Class_60,
     obo:BFO_0000057 [ a exact2:OWLClass_9d50649c_a0e5_4876_834d_dd48fe9095d1 ] ;
     ep-plan:hasInputVariable prosp_plan:var_45 ;
     ep-plan:hasOutputVariable prosp_plan:var_46 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_19 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_13 ;
     ep-plan:isPrecededBy prosp_plan:step_29 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_19 .
+    ep-plan:isStepOfPlan prosp_plan:plan_13 .
 
 prosp_plan:step_36 a exact2:Class_49,
         ep-plan:Step ;
     rdfs:label "incubate at 37°C"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
-        [ a exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+    obo:BFO_0000057 [ a exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
+        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
         prosp_plan:var_50,
         prosp_plan:var_51,
         prosp_plan:var_52,
@@ -146,9 +146,9 @@ prosp_plan:step_36 a exact2:Class_49,
         prosp_plan:var_55 ;
     obo:BFO_0000086 [ a obo:PATO_0000146 ],
         prosp_plan:var_59 ;
-    exact2:objectProperty_3 [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
+    exact2:objectProperty_3 [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
         [ a exact2:Class_83 ],
-        [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ] ;
+        [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ] ;
     ep-plan:hasInputVariable prosp_plan:var_50,
         prosp_plan:var_51,
         prosp_plan:var_52,
@@ -156,9 +156,9 @@ prosp_plan:step_36 a exact2:Class_49,
         prosp_plan:var_54,
         prosp_plan:var_55,
         prosp_plan:var_59 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_21 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_14 ;
     ep-plan:isPrecededBy prosp_plan:step_35 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_21 .
+    ep-plan:isStepOfPlan prosp_plan:plan_14 .
 
 prosp_plan:step_39 a exact2:OWLClass_9ad55d12_d7ed_46a0_822a_37c797fbcdcf,
         ep-plan:Step ;
@@ -178,12 +178,12 @@ prosp_plan:step_39 a exact2:OWLClass_9ad55d12_d7ed_46a0_822a_37c797fbcdcf,
         prosp_plan:var_53,
         prosp_plan:var_54,
         prosp_plan:var_55 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 ;
     ep-plan:isPrecededBy prosp_plan:step_37,
         prosp_plan:step_38 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 .
+    ep-plan:isStepOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
 prosp_plan:step_4 a exact2:Class_50,
         ep-plan:Step ;
@@ -194,15 +194,15 @@ prosp_plan:step_4 a exact2:Class_50,
         prosp_plan:var_9 ;
     obo:BFO_0000086 [ a obo:PATO_0000146 ],
         prosp_plan:var_5 ;
-    exact2:objectProperty_3 [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
-        [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ] ;
+    exact2:objectProperty_3 [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
+        [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ] ;
     ep-plan:hasInputVariable prosp_plan:var_5,
         prosp_plan:var_7,
         prosp_plan:var_8,
         prosp_plan:var_9 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_6 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_5 ;
     ep-plan:isPrecededBy prosp_plan:step_3 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_6 .
+    ep-plan:isStepOfPlan prosp_plan:plan_5 .
 
 prosp_plan:step_44 a exact2:Class_19,
         ep-plan:Step ;
@@ -220,9 +220,9 @@ prosp_plan:step_44 a exact2:Class_19,
         prosp_plan:var_53,
         prosp_plan:var_54,
         prosp_plan:var_55 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_25 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_17 ;
     ep-plan:isPrecededBy prosp_plan:step_43 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_25 .
+    ep-plan:isStepOfPlan prosp_plan:plan_17 .
 
 prosp_plan:step_47 a exact2:Class_21,
         ep-plan:Step ;
@@ -232,9 +232,9 @@ prosp_plan:step_47 a exact2:Class_21,
     exact2:objectProperty_3 [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
         [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ] ;
     ep-plan:hasInputVariable prosp_plan:var_70 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_27 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_18 ;
     ep-plan:isPrecededBy prosp_plan:step_46 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_27 .
+    ep-plan:isStepOfPlan prosp_plan:plan_18 .
 
 prosp_plan:step_49 a exact2:Class_49,
         ep-plan:Step ;
@@ -249,9 +249,9 @@ prosp_plan:step_49 a exact2:Class_49,
         prosp_plan:var_55 ;
     obo:BFO_0000086 [ a obo:PATO_0000146 ],
         prosp_plan:var_73 ;
-    exact2:objectProperty_3 [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
+    exact2:objectProperty_3 [ a exact2:Class_83 ],
         [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
-        [ a exact2:Class_83 ],
+        [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
         prosp_plan:var_72 ;
     ep-plan:hasInputVariable prosp_plan:var_50,
         prosp_plan:var_51,
@@ -261,9 +261,9 @@ prosp_plan:step_49 a exact2:Class_49,
         prosp_plan:var_55,
         prosp_plan:var_72,
         prosp_plan:var_73 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_29 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_19 ;
     ep-plan:isPrecededBy prosp_plan:step_48 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_29 .
+    ep-plan:isStepOfPlan prosp_plan:plan_19 .
 
 prosp_plan:step_51 a exact2:Class_9,
         ep-plan:Step ;
@@ -286,9 +286,9 @@ prosp_plan:step_51 a exact2:Class_9,
         prosp_plan:var_54,
         prosp_plan:var_55,
         prosp_plan:var_74 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_31 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_20 ;
     ep-plan:isPrecededBy prosp_plan:step_50 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_31 .
+    ep-plan:isStepOfPlan prosp_plan:plan_20 .
 
 prosp_plan:step_52 a exact2:Measure,
         ep-plan:Step ;
@@ -308,9 +308,9 @@ prosp_plan:step_52 a exact2:Measure,
         prosp_plan:var_80 ;
     ep-plan:hasOutputVariable prosp_plan:var_78,
         prosp_plan:var_79 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_15 ;
     ep-plan:isPrecededBy prosp_plan:mstep_17 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_22 .
+    ep-plan:isStepOfPlan prosp_plan:plan_15 .
 
 prosp_plan:step_53 a exact2:Measure,
         ep-plan:Step ;
@@ -330,9 +330,9 @@ prosp_plan:step_53 a exact2:Measure,
         prosp_plan:var_80 ;
     ep-plan:hasOutputVariable prosp_plan:var_81,
         prosp_plan:var_82 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_15 ;
     ep-plan:isPrecededBy prosp_plan:mstep_17 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_22 .
+    ep-plan:isStepOfPlan prosp_plan:plan_15 .
 
 prosp_plan:step_6 a exact2:Class_50,
         ep-plan:Step ;
@@ -342,14 +342,14 @@ prosp_plan:step_6 a exact2:Class_50,
         prosp_plan:var_12 ;
     obo:BFO_0000086 [ a obo:PATO_0000146 ],
         prosp_plan:var_13 ;
-    exact2:objectProperty_3 [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
-        [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ] ;
+    exact2:objectProperty_3 [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
+        [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ] ;
     ep-plan:hasInputVariable prosp_plan:var_11,
         prosp_plan:var_12,
         prosp_plan:var_13 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_7 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_6 ;
     ep-plan:isPrecededBy prosp_plan:step_5 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_7 .
+    ep-plan:isStepOfPlan prosp_plan:plan_6 .
 
 prosp_plan:var_14 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
@@ -1426,77 +1426,42 @@ obo:OBI_0000312 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_a
 
 obo:OBI_0000833 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a .
 
+prosp_plan:mstep_11 a ep-plan:MultiStep ;
+    rdf:description "prepare [Cultivation container] 6 well glass bottom plate (no LOT): disinfect & wash with EtOH and fill with 4ml [culture medium] DMEM without phenolred, pyruvate in each wells, incubate at 37°C"^^xsd:string ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_14 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 ;
+    ep-plan:isPrecededBy prosp_plan:step_33 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
+
 prosp_plan:mstep_12 a ep-plan:MultiStep ;
     rdf:description "Stimulation and analysis"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_22 ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_15 ;
     ep-plan:isElementOfPlan prosp_plan:plan_1 ;
     ep-plan:isPrecededBy prosp_plan:mstep_5 ;
     ep-plan:isStepOfPlan prosp_plan:plan_1 .
 
 prosp_plan:mstep_13 a ep-plan:MultiStep ;
     rdf:description "Stimulation and analysis"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_23 ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_16 ;
     ep-plan:isElementOfPlan prosp_plan:plan_2 ;
     ep-plan:isPrecededBy prosp_plan:mstep_5alternative_in_v2__1 ;
     ep-plan:isStepOfPlan prosp_plan:plan_2 .
 
 prosp_plan:mstep_4 a ep-plan:MultiStep ;
     rdf:description "take out from freezer and warm up to room temperature:"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_7 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_4 ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_6 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_3 ;
     ep-plan:isPrecededBy prosp_plan:mstep_3 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_4 .
+    ep-plan:isStepOfPlan prosp_plan:plan_3 .
 
 prosp_plan:mstep_7 a ep-plan:MultiStep ;
     rdf:description "wash cells with [Washing solution] PBS without Ca/Mg (#D8537-500ml, LOT RNBH6741) in T25: add PBS, swing T25, directly suction fluid"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_13 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11 ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_10 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_8 ;
     ep-plan:isPrecededBy prosp_plan:step_7alternative_in_v2__1 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_11 .
-
-prosp_plan:plan_10 a ep-plan:Plan ;
-    ep-plan:decomposesMultiStep prosp_plan:mstep_5alternative_in_v2__1 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_1 .
-
-prosp_plan:plan_14 a ep-plan:Plan ;
-    ep-plan:decomposesMultiStep prosp_plan:mstep_8 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_9 .
-
-prosp_plan:plan_16 a ep-plan:Plan ;
-    ep-plan:decomposesMultiStep prosp_plan:mstep_9 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_9 .
-
-prosp_plan:plan_18 a ep-plan:Plan ;
-    ep-plan:decomposesMultiStep prosp_plan:mstep_10 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_9 .
-
-prosp_plan:plan_20 a ep-plan:Plan ;
-    ep-plan:decomposesMultiStep prosp_plan:mstep_11 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_9 .
-
-prosp_plan:plan_24 a ep-plan:Plan ;
-    ep-plan:decomposesMultiStep prosp_plan:mstep_14 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_22 .
-
-prosp_plan:plan_26 a ep-plan:Plan ;
-    ep-plan:decomposesMultiStep prosp_plan:mstep_15 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_22 .
-
-prosp_plan:plan_28 a ep-plan:Plan ;
-    ep-plan:decomposesMultiStep prosp_plan:mstep_16 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_22 .
-
-prosp_plan:plan_3 a ep-plan:Plan ;
-    ep-plan:decomposesMultiStep prosp_plan:mstep_1 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_1 .
-
-prosp_plan:plan_30 a ep-plan:Plan ;
-    ep-plan:decomposesMultiStep prosp_plan:mstep_17 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_22 .
-
-prosp_plan:plan_8 a ep-plan:Plan ;
-    ep-plan:decomposesMultiStep prosp_plan:mstep_5 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_1 .
+    ep-plan:isStepOfPlan prosp_plan:plan_8 .
 
 prosp_plan:step_1 a exact2:Remove,
         ep-plan:Step ;
@@ -1512,8 +1477,8 @@ prosp_plan:step_1 a exact2:Remove,
     ep-plan:hasOutputVariable prosp_plan:var_2,
         prosp_plan:var_3,
         prosp_plan:var_4 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_5 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_5 .
+    ep-plan:isElementOfPlan prosp_plan:plan_4 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_4 .
 
 prosp_plan:step_10 a exact2:Class_21,
         ep-plan:Step ;
@@ -1522,12 +1487,12 @@ prosp_plan:step_10 a exact2:Class_21,
         prosp_plan:var_17,
         prosp_plan:var_18,
         prosp_plan:var_19 ;
-    exact2:objectProperty_3 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
-        [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ] ;
+    exact2:objectProperty_3 [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
+        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ] ;
     ep-plan:hasInputVariable prosp_plan:var_15 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_12 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_9 ;
     ep-plan:isPrecededBy prosp_plan:step_8 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_12 .
+    ep-plan:isStepOfPlan prosp_plan:plan_9 .
 
 prosp_plan:step_11 a exact2:Class_21,
         ep-plan:Step ;
@@ -1541,30 +1506,30 @@ prosp_plan:step_11 a exact2:Class_21,
     ep-plan:hasInputVariable prosp_plan:var_17,
         prosp_plan:var_18,
         prosp_plan:var_19 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_13 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_10 ;
     ep-plan:isPrecededBy prosp_plan:step_9 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_13 .
+    ep-plan:isStepOfPlan prosp_plan:plan_10 .
 
 prosp_plan:step_14 a exact2:Class_9,
         ep-plan:Step ;
     rdfs:label "add 1.5ml [Enzyme] Trypsin/EDTA"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:Class_66 ],
-        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a exact2:Class_66 ],
         prosp_plan:var_15,
         prosp_plan:var_8 ;
     exact2:objectProperty_3 [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ] ;
     ep-plan:hasInputVariable prosp_plan:var_15,
         prosp_plan:var_20,
         prosp_plan:var_8 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_9 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_7 ;
     ep-plan:isPrecededBy prosp_plan:mstep_6 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_9 .
+    ep-plan:isStepOfPlan prosp_plan:plan_7 .
 
 prosp_plan:step_15 a exact2:Class_9,
         ep-plan:Step ;
     rdfs:label "add 0.5ml [Enzyme] Trypsin/EDTA"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
-        [ a exact2:Class_66 ],
+    obo:BFO_0000057 [ a exact2:Class_66 ],
+        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
         prosp_plan:var_17,
         prosp_plan:var_18,
         prosp_plan:var_19,
@@ -1575,9 +1540,9 @@ prosp_plan:step_15 a exact2:Class_9,
         prosp_plan:var_19,
         prosp_plan:var_21,
         prosp_plan:var_8 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_8 ;
     ep-plan:isPrecededBy prosp_plan:mstep_6 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_11 .
+    ep-plan:isStepOfPlan prosp_plan:plan_8 .
 
 prosp_plan:step_16 a exact2:Class_49,
         ep-plan:Step ;
@@ -1590,16 +1555,16 @@ prosp_plan:step_16 a exact2:Class_49,
         prosp_plan:var_24 ;
     obo:BFO_0000086 [ a obo:PATO_0000146 ],
         prosp_plan:var_22 ;
-    exact2:objectProperty_3 [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
-        [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
-        [ a exact2:Class_83 ] ;
+    exact2:objectProperty_3 [ a exact2:Class_83 ],
+        [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+        [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ] ;
     ep-plan:hasInputVariable prosp_plan:var_15,
         prosp_plan:var_22,
         prosp_plan:var_23,
         prosp_plan:var_24 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_9 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_7 ;
     ep-plan:isPrecededBy prosp_plan:step_14 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_9 .
+    ep-plan:isStepOfPlan prosp_plan:plan_7 .
 
 prosp_plan:step_17 a exact2:Class_49,
         ep-plan:Step ;
@@ -1612,16 +1577,16 @@ prosp_plan:step_17 a exact2:Class_49,
         prosp_plan:var_24 ;
     obo:BFO_0000086 [ a obo:PATO_0000146 ],
         prosp_plan:var_22 ;
-    exact2:objectProperty_3 [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+    exact2:objectProperty_3 [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
         [ a exact2:Class_83 ],
-        [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ] ;
+        [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ] ;
     ep-plan:hasInputVariable prosp_plan:var_15,
         prosp_plan:var_22,
         prosp_plan:var_23,
         prosp_plan:var_24 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_8 ;
     ep-plan:isPrecededBy prosp_plan:step_15 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_11 .
+    ep-plan:isStepOfPlan prosp_plan:plan_8 .
 
 prosp_plan:step_20 a exact2:Class_9,
         ep-plan:Step ;
@@ -1634,15 +1599,15 @@ prosp_plan:step_20 a exact2:Class_9,
     ep-plan:hasInputVariable prosp_plan:var_15,
         prosp_plan:var_33,
         prosp_plan:var_7 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_9 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_7 ;
     ep-plan:isPrecededBy prosp_plan:mstep_8 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_9 .
+    ep-plan:isStepOfPlan prosp_plan:plan_7 .
 
 prosp_plan:step_21 a exact2:Class_9,
         ep-plan:Step ;
     rdfs:label "stop the reaction with 1.5ml Culture Medium DMEM and serum: 89% + 10% [Serum] FCS + 1% [Antibiotic] Gentamicin "^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
-        [ a exact2:Class_66 ],
+    obo:BFO_0000057 [ a exact2:Class_66 ],
+        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
         prosp_plan:var_17,
         prosp_plan:var_18,
         prosp_plan:var_19,
@@ -1653,9 +1618,9 @@ prosp_plan:step_21 a exact2:Class_9,
         prosp_plan:var_19,
         prosp_plan:var_33,
         prosp_plan:var_7 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_8 ;
     ep-plan:isPrecededBy prosp_plan:mstep_8 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_11 .
+    ep-plan:isStepOfPlan prosp_plan:plan_8 .
 
 prosp_plan:step_22 a exact2:Class_57,
         ep-plan:Step ;
@@ -1665,9 +1630,9 @@ prosp_plan:step_22 a exact2:Class_57,
     obo:BFO_0000086 [ a exact2:OWLClass_b8241e01_b952_4810_bf2d_43ec10dd9db6 ],
         [ a obo:PATO_0000918 ] ;
     ep-plan:hasInputVariable prosp_plan:var_15 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_9 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_7 ;
     ep-plan:isPrecededBy prosp_plan:step_20 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_9 .
+    ep-plan:isStepOfPlan prosp_plan:plan_7 .
 
 prosp_plan:step_23 a exact2:Class_57,
         ep-plan:Step ;
@@ -1676,14 +1641,14 @@ prosp_plan:step_23 a exact2:Class_57,
         prosp_plan:var_17,
         prosp_plan:var_18,
         prosp_plan:var_19 ;
-    obo:BFO_0000086 [ a obo:PATO_0000918 ],
-        [ a exact2:OWLClass_b8241e01_b952_4810_bf2d_43ec10dd9db6 ] ;
+    obo:BFO_0000086 [ a exact2:OWLClass_b8241e01_b952_4810_bf2d_43ec10dd9db6 ],
+        [ a obo:PATO_0000918 ] ;
     ep-plan:hasInputVariable prosp_plan:var_17,
         prosp_plan:var_18,
         prosp_plan:var_19 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_8 ;
     ep-plan:isPrecededBy prosp_plan:step_21 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_11 .
+    ep-plan:isStepOfPlan prosp_plan:plan_8 .
 
 prosp_plan:step_24 a exact2:Class_8,
         ep-plan:Step ;
@@ -1696,15 +1661,15 @@ prosp_plan:step_24 a exact2:Class_8,
     ep-plan:hasInputVariable prosp_plan:var_15,
         prosp_plan:var_35 ;
     ep-plan:hasOutputVariable prosp_plan:var_36 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_9 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_7 ;
     ep-plan:isPrecededBy prosp_plan:step_22 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_9 .
+    ep-plan:isStepOfPlan prosp_plan:plan_7 .
 
 prosp_plan:step_25 a exact2:Class_8,
         ep-plan:Step ;
     rdfs:label "transfer the suspended cells into a [Cultivation container] Tube: 10ml"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
-        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
         prosp_plan:var_17,
         prosp_plan:var_18,
         prosp_plan:var_19,
@@ -1715,27 +1680,27 @@ prosp_plan:step_25 a exact2:Class_8,
         prosp_plan:var_19,
         prosp_plan:var_35 ;
     ep-plan:hasOutputVariable prosp_plan:var_36 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_8 ;
     ep-plan:isPrecededBy prosp_plan:step_23 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_11 .
+    ep-plan:isStepOfPlan prosp_plan:plan_8 .
 
 prosp_plan:step_26 a exact2:Fill,
         ep-plan:Step ;
     rdfs:label "fill cup of [Device] CASY cell counter with 10ml [Buffer] CASYton: Schärfe System "^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:Class_66 ],
-        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a exact2:Class_66 ],
         prosp_plan:var_37,
         prosp_plan:var_38 ;
     ep-plan:hasInputVariable prosp_plan:var_37,
         prosp_plan:var_38,
         prosp_plan:var_39 ;
     ep-plan:hasOutputVariable prosp_plan:var_40 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 ;
     ep-plan:isPrecededBy prosp_plan:step_24,
         prosp_plan:step_25 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+    ep-plan:isStepOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:step_27 a exact2:Remove,
         ep-plan:Step ;
@@ -1748,8 +1713,8 @@ prosp_plan:step_27 a exact2:Remove,
     ep-plan:hasInputVariable prosp_plan:var_36,
         prosp_plan:var_41 ;
     ep-plan:hasOutputVariable prosp_plan:var_42 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_17 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_17 .
+    ep-plan:isElementOfPlan prosp_plan:plan_12 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_12 .
 
 prosp_plan:step_29 a exact2:Count,
         ep-plan:Step ;
@@ -1759,8 +1724,8 @@ prosp_plan:step_29 a exact2:Count,
     ep-plan:hasInputVariable prosp_plan:var_43,
         prosp_plan:var_44 ;
     ep-plan:hasOutputVariable prosp_plan:var_45 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_19 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_19 .
+    ep-plan:isElementOfPlan prosp_plan:plan_13 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_13 .
 
 prosp_plan:step_3 a exact2:Remove,
         ep-plan:Step ;
@@ -1776,8 +1741,8 @@ prosp_plan:step_3 a exact2:Remove,
     ep-plan:hasOutputVariable prosp_plan:var_7,
         prosp_plan:var_8,
         prosp_plan:var_9 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_6 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_6 .
+    ep-plan:isElementOfPlan prosp_plan:plan_5 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_5 .
 
 prosp_plan:step_31 a exact2:Class_53,
         ep-plan:Step ;
@@ -1790,11 +1755,11 @@ prosp_plan:step_31 a exact2:Class_53,
         prosp_plan:var_47,
         prosp_plan:var_48,
         prosp_plan:var_49 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 ;
     ep-plan:isPrecededBy prosp_plan:mstep_10 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+    ep-plan:isStepOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:step_32 a exact2:Class_19,
         ep-plan:Step ;
@@ -1802,17 +1767,17 @@ prosp_plan:step_32 a exact2:Class_19,
     obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
         prosp_plan:var_36 ;
     ep-plan:hasInputVariable prosp_plan:var_36 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 ;
     ep-plan:isPrecededBy prosp_plan:step_31 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+    ep-plan:isStepOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:step_33 a exact2:Class_9,
         ep-plan:Step ;
     rdfs:label "add 2,79 ml of culture medium (free) and serum: 89% [culture medium] DMEM without phenolred, pyruvate + 10% [Serum] FCS + 1% [Antibiotic] Gentamicin"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
-        [ a exact2:Class_66 ],
+    obo:BFO_0000057 [ a exact2:Class_66 ],
+        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
         prosp_plan:var_36,
         prosp_plan:var_9 ;
     exact2:objectProperty_3 [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
@@ -1820,11 +1785,11 @@ prosp_plan:step_33 a exact2:Class_9,
     ep-plan:hasInputVariable prosp_plan:var_36,
         prosp_plan:var_46,
         prosp_plan:var_9 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 ;
     ep-plan:isPrecededBy prosp_plan:step_32 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+    ep-plan:isStepOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:step_34 a exact2:Class_22,
         ep-plan:Step ;
@@ -1838,8 +1803,8 @@ prosp_plan:step_34 a exact2:Class_22,
         prosp_plan:var_54,
         prosp_plan:var_55,
         prosp_plan:var_56 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_21 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_21 .
+    ep-plan:isElementOfPlan prosp_plan:plan_14 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_14 .
 
 prosp_plan:step_35 a exact2:Class_9,
         ep-plan:Step ;
@@ -1863,15 +1828,15 @@ prosp_plan:step_35 a exact2:Class_9,
         prosp_plan:var_55,
         prosp_plan:var_58,
         prosp_plan:var_9 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_21 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_14 ;
     ep-plan:isPrecededBy prosp_plan:step_34 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_21 .
+    ep-plan:isStepOfPlan prosp_plan:plan_14 .
 
 prosp_plan:step_37 a exact2:Class_9,
         ep-plan:Step ;
     rdfs:label "add in all wells  0.3 ml of cell solution"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:Class_66 ],
-        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a exact2:Class_66 ],
         prosp_plan:var_36,
         prosp_plan:var_50,
         prosp_plan:var_51,
@@ -1889,8 +1854,8 @@ prosp_plan:step_37 a exact2:Class_9,
         prosp_plan:var_54,
         prosp_plan:var_55,
         prosp_plan:var_60 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_22 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_15 .
 
 prosp_plan:step_38 a exact2:Class_9,
         ep-plan:Step ;
@@ -1914,14 +1879,14 @@ prosp_plan:step_38 a exact2:Class_9,
         prosp_plan:var_54,
         prosp_plan:var_55,
         prosp_plan:var_61 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_23 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_23 .
+    ep-plan:isElementOfPlan prosp_plan:plan_16 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_16 .
 
 prosp_plan:step_40 a exact2:Class_49,
         ep-plan:Step ;
     rdfs:label "incubate for 2 h in stimulation chamber in incubator at 37°C and 5% CO2"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
-        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
         prosp_plan:var_50,
         prosp_plan:var_51,
         prosp_plan:var_52,
@@ -1930,9 +1895,9 @@ prosp_plan:step_40 a exact2:Class_49,
         prosp_plan:var_55 ;
     obo:BFO_0000086 [ a obo:PATO_0000146 ],
         prosp_plan:var_63 ;
-    exact2:objectProperty_3 [ a exact2:Class_83 ],
-        [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
+    exact2:objectProperty_3 [ a exact2:OWLClass_786b6d18_eabf_4ad4_8f61_8aa83f686be8 ],
         [ a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 ],
+        [ a exact2:Class_83 ],
         prosp_plan:var_62,
         prosp_plan:var_64 ;
     ep-plan:hasInputVariable prosp_plan:var_50,
@@ -1944,12 +1909,12 @@ prosp_plan:step_40 a exact2:Class_49,
         prosp_plan:var_62,
         prosp_plan:var_63,
         prosp_plan:var_64 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 ;
-    ep-plan:isPrecededBy prosp_plan:plan_22,
-        prosp_plan:plan_23 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 ;
+    ep-plan:isPrecededBy prosp_plan:plan_15,
+        prosp_plan:plan_16 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
 prosp_plan:step_41 a exact2:Remove,
         ep-plan:Step ;
@@ -1969,11 +1934,11 @@ prosp_plan:step_41 a exact2:Remove,
         prosp_plan:var_53,
         prosp_plan:var_54,
         prosp_plan:var_55 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 ;
     ep-plan:isPrecededBy prosp_plan:step_40 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 .
+    ep-plan:isStepOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
 prosp_plan:step_42 a exact2:Class_9,
         ep-plan:Step ;
@@ -1995,8 +1960,8 @@ prosp_plan:step_42 a exact2:Class_9,
         prosp_plan:var_53,
         prosp_plan:var_54,
         prosp_plan:var_55 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_25 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_25 .
+    ep-plan:isElementOfPlan prosp_plan:plan_17 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_17 .
 
 prosp_plan:step_43 a exact2:Class_21,
         ep-plan:Step ;
@@ -2008,17 +1973,17 @@ prosp_plan:step_43 a exact2:Class_21,
         prosp_plan:var_53,
         prosp_plan:var_54,
         prosp_plan:var_55 ;
-    exact2:objectProperty_3 [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ],
-        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ] ;
+    exact2:objectProperty_3 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ] ;
     ep-plan:hasInputVariable prosp_plan:var_50,
         prosp_plan:var_51,
         prosp_plan:var_52,
         prosp_plan:var_53,
         prosp_plan:var_54,
         prosp_plan:var_55 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_25 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_17 ;
     ep-plan:isPrecededBy prosp_plan:step_42 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_25 .
+    ep-plan:isStepOfPlan prosp_plan:plan_17 .
 
 prosp_plan:step_45 a exact2:Class_45,
         ep-plan:Step ;
@@ -2037,31 +2002,31 @@ prosp_plan:step_45 a exact2:Class_45,
         prosp_plan:var_66,
         prosp_plan:var_67 ;
     ep-plan:hasOutputVariable prosp_plan:var_68 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 ;
     ep-plan:isPrecededBy prosp_plan:mstep_14 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 .
+    ep-plan:isStepOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
 prosp_plan:step_46 a exact2:Class_9,
         ep-plan:Step ;
     rdfs:label "add 35µl [Indicator] Fluo-3/AM (make sure it is dark, no ambient light) "^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
-        [ a exact2:Class_66 ],
+    obo:BFO_0000057 [ a exact2:Class_66 ],
+        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
         prosp_plan:var_12,
         prosp_plan:var_68 ;
     exact2:objectProperty_3 [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ] ;
     ep-plan:hasInputVariable prosp_plan:var_68,
         prosp_plan:var_69 ;
     ep-plan:hasOutputVariable prosp_plan:var_70 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_27 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_27 .
+    ep-plan:isElementOfPlan prosp_plan:plan_18 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_18 .
 
 prosp_plan:step_48 a exact2:Class_9,
         ep-plan:Step ;
     rdfs:label "add 1ml staining solution to each well"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:Class_66 ],
-        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a exact2:Class_66 ],
         prosp_plan:var_50,
         prosp_plan:var_51,
         prosp_plan:var_52,
@@ -2078,8 +2043,8 @@ prosp_plan:step_48 a exact2:Class_9,
         prosp_plan:var_55,
         prosp_plan:var_70,
         prosp_plan:var_71 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_29 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_29 .
+    ep-plan:isElementOfPlan prosp_plan:plan_19 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_19 .
 
 prosp_plan:step_5 a exact2:Remove,
         ep-plan:Step ;
@@ -2093,14 +2058,14 @@ prosp_plan:step_5 a exact2:Remove,
     ep-plan:hasInputVariable prosp_plan:var_10 ;
     ep-plan:hasOutputVariable prosp_plan:var_11,
         prosp_plan:var_12 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_7 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_7 .
+    ep-plan:isElementOfPlan prosp_plan:plan_6 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_6 .
 
 prosp_plan:step_50 a exact2:Remove,
         ep-plan:Step ;
     rdfs:label "remove staining solution"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
-        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
+        [ a exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b ],
         prosp_plan:var_50,
         prosp_plan:var_51,
         prosp_plan:var_52,
@@ -2114,8 +2079,8 @@ prosp_plan:step_50 a exact2:Remove,
         prosp_plan:var_53,
         prosp_plan:var_54,
         prosp_plan:var_55 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_31 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_31 .
+    ep-plan:isElementOfPlan prosp_plan:plan_20 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_20 .
 
 prosp_plan:step_7 a exact2:Class_19,
         ep-plan:Step ;
@@ -2123,8 +2088,8 @@ prosp_plan:step_7 a exact2:Class_19,
     obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
         prosp_plan:var_15 ;
     ep-plan:hasInputVariable prosp_plan:var_15 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_9 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_7 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_7 .
 
 prosp_plan:step_7alternative_in_v2__1 a exact2:Class_19,
         ep-plan:Step ;
@@ -2136,27 +2101,27 @@ prosp_plan:step_7alternative_in_v2__1 a exact2:Class_19,
     ep-plan:hasInputVariable prosp_plan:var_17,
         prosp_plan:var_18,
         prosp_plan:var_19 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_11 .
+    ep-plan:isElementOfPlan prosp_plan:plan_8 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_8 .
 
 prosp_plan:step_8 a exact2:Class_9,
         ep-plan:Step ;
     rdfs:label "add PBS"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
-        [ a exact2:Class_66 ],
+    obo:BFO_0000057 [ a exact2:Class_66 ],
+        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
         prosp_plan:var_15,
         prosp_plan:var_4 ;
     exact2:objectProperty_3 [ a exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f ] ;
     ep-plan:hasInputVariable prosp_plan:var_15,
         prosp_plan:var_4 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_12 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_12 .
+    ep-plan:isElementOfPlan prosp_plan:plan_9 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_9 .
 
 prosp_plan:step_9 a exact2:Class_9,
         ep-plan:Step ;
     rdfs:label "add PBS"^^xsd:string ;
-    obo:BFO_0000057 [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
-        [ a exact2:Class_66 ],
+    obo:BFO_0000057 [ a exact2:Class_66 ],
+        [ a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1 ],
         prosp_plan:var_17,
         prosp_plan:var_18,
         prosp_plan:var_19,
@@ -2166,82 +2131,82 @@ prosp_plan:step_9 a exact2:Class_9,
         prosp_plan:var_18,
         prosp_plan:var_19,
         prosp_plan:var_4 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_13 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_13 .
+    ep-plan:isElementOfPlan prosp_plan:plan_10 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_10 .
 
 prosp_plan:var_10 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "freezer"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_7 .
+    ep-plan:isElementOfPlan prosp_plan:plan_6 .
 
 prosp_plan:var_20 a obo:PATO_0000918,
         ep-plan:Variable ;
     rdfs:label "1.5ml"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_7 .
 
 prosp_plan:var_21 a obo:PATO_0000918,
         ep-plan:Variable ;
     rdfs:label "0.5ml"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11 .
+    ep-plan:isElementOfPlan prosp_plan:plan_8 .
 
 prosp_plan:var_30 a obo:PATO_0000918,
         ep-plan:Variable ;
     rdfs:label "4 ml"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_15 .
+    ep-plan:isElementOfPlan prosp_plan:plan_11 .
 
 prosp_plan:var_39 a obo:PATO_0000918,
         ep-plan:Variable ;
     rdfs:label "10ml"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_44 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "cell counter"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_19 .
+    ep-plan:isElementOfPlan prosp_plan:plan_13 .
 
 prosp_plan:var_47 a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857,
         ep-plan:Variable ;
     rdfs:label "5 min"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_48 a obo:PATO_0000001,
         ep-plan:Variable ;
     rdfs:label "1.200 rpm"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_69 a obo:PATO_0000918,
         ep-plan:Variable ;
     rdfs:label "35µl"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_27 .
+    ep-plan:isElementOfPlan prosp_plan:plan_18 .
 
 prosp_plan:var_71 a obo:PATO_0000918,
         ep-plan:Variable ;
     rdfs:label "1ml"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_29 .
+    ep-plan:isElementOfPlan prosp_plan:plan_19 .
 
 prosp_plan:var_74 a obo:PATO_0000918,
         ep-plan:Variable ;
     rdfs:label "2ml"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_31 .
+    ep-plan:isElementOfPlan prosp_plan:plan_20 .
 
 prosp_plan:var_78 a ep-plan:Variable ;
     rdfs:label "output Time series file"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15 .
 
 prosp_plan:var_79 a ep-plan:Variable ;
     rdfs:label "output image file"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15 .
 
 prosp_plan:var_81 a ep-plan:Variable ;
     rdfs:label "output Time series file"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15 .
 
 prosp_plan:var_82 a ep-plan:Variable ;
     rdfs:label "output image file"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15 .
 
 exact2:Class_22 a owl:Class ;
     rdfs:label "sterilise"^^xsd:string ;
@@ -2382,166 +2347,219 @@ exact2:weign_12 a exact2:Class_24,
 
 obo:BFO_0000029 rdfs:subClassOf exact2:OWLClass_8029e3a4_312f_4130_827e_d330da199ea9 .
 
-prosp_plan:mstep_11 a ep-plan:MultiStep ;
-    rdf:description "prepare [Cultivation container] 6 well glass bottom plate (no LOT): disinfect & wash with EtOH and fill with 4ml [culture medium] DMEM without phenolred, pyruvate in each wells, incubate at 37°C"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_20,
-        prosp_plan:plan_21 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 ;
-    ep-plan:isPrecededBy prosp_plan:step_33 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+prosp_plan:mstep_10 a ep-plan:MultiStep ;
+    rdf:description "count cells with [Device] CASY cell counter and calculate 1,000,000 cells per ml for approach:"^^xsd:string ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_13 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 ;
+    ep-plan:isPrecededBy prosp_plan:mstep_9 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
+
+prosp_plan:mstep_14 a ep-plan:MultiStep ;
+    rdf:description "wash cells with Washing solution PBS without Ca/Mg: add PBS, swing, directly suction fluid"^^xsd:string ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_17 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 ;
+    ep-plan:isPrecededBy prosp_plan:step_41 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
+
+prosp_plan:mstep_15 a ep-plan:MultiStep ;
+    rdf:description "add 35µl [Indicator] Fluo-3/AM (make sure it is dark, no ambient light) and swing!!!"^^xsd:string ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_18 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 ;
+    ep-plan:isPrecededBy prosp_plan:step_45 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
+
+prosp_plan:mstep_16 a ep-plan:MultiStep ;
+    rdf:description "add 1ml staining solution to each well and incubate 30min in  at 37°C"^^xsd:string ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_19 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 ;
+    ep-plan:isPrecededBy prosp_plan:mstep_15 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
 prosp_plan:mstep_2 a ep-plan:MultiStep ;
     rdf:description "take out from fridge and warm up to 37°C:"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_5 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_4 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_4 .
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_4 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_3 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_3 .
 
 prosp_plan:mstep_3 a ep-plan:MultiStep ;
     rdf:description "take out from fridge and warm up to 37°C:"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_6 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_4 ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_5 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_3 ;
     ep-plan:isPrecededBy prosp_plan:mstep_2 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_4 .
+    ep-plan:isStepOfPlan prosp_plan:plan_3 .
+
+prosp_plan:mstep_5 a ep-plan:MultiStep ;
+    rdf:description "Approach 2 - DMEM cultivation and Fluo-3 staining"^^xsd:string ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_7 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_1,
+        prosp_plan:plan_2 ;
+    ep-plan:isPrecededBy prosp_plan:mstep_1 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_1,
+        prosp_plan:plan_2 .
+
+prosp_plan:mstep_5alternative_in_v2__1 a ep-plan:MultiStep ;
+    rdf:description "Approach 2 - DMEM cultivation and Fluo-3 staining"^^xsd:string ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_8 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_1,
+        prosp_plan:plan_2 ;
+    ep-plan:isPrecededBy prosp_plan:mstep_1 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_1,
+        prosp_plan:plan_2 .
+
+prosp_plan:mstep_9 a ep-plan:MultiStep ;
+    rdf:description "take out 100µl of cell suspension into cup of [Device] CASY cell counter with buffer"^^xsd:string ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_12 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 ;
+    ep-plan:isPrecededBy prosp_plan:step_26 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_13 a obo:PATO_0000146,
         ep-plan:Variable ;
     rdfs:label "Room Temperature"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_7 .
+    ep-plan:isElementOfPlan prosp_plan:plan_6 .
 
 prosp_plan:var_26 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "'washed'? Electrodes"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
 prosp_plan:var_27 a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857,
         ep-plan:Variable ;
     rdfs:label "20 min"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_15 .
+    ep-plan:isElementOfPlan prosp_plan:plan_11 .
 
 prosp_plan:var_28 a obo:PATO_0000146,
         ep-plan:Variable ;
     rdfs:label "37°C"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_15 .
+    ep-plan:isElementOfPlan prosp_plan:plan_11 .
 
 prosp_plan:var_29 a exact2:Class_83,
         ep-plan:Variable ;
     rdfs:label "5%"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_15 .
+    ep-plan:isElementOfPlan prosp_plan:plan_11 .
 
 prosp_plan:var_31 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "Stimulation device"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_15 .
+    ep-plan:isElementOfPlan prosp_plan:plan_11 .
 
 prosp_plan:var_32 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "Stimulation device, activated"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_15 .
+    ep-plan:isElementOfPlan prosp_plan:plan_11 .
 
 prosp_plan:var_33 a obo:PATO_0000918,
         ep-plan:Variable ;
     rdfs:label "4.5ml"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_37 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "[Buffer] CASYton: Schärfe System "^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_38 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "cup of [Device] CASY cell counter"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_41 a obo:PATO_0000918,
         ep-plan:Variable ;
     rdfs:label "100µl"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_17 .
+    ep-plan:isElementOfPlan prosp_plan:plan_12 .
 
 prosp_plan:var_45 a obo:PATO_0000001,
         ep-plan:Variable ;
     rdfs:label "Number of counted cells"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_19 .
+    ep-plan:isElementOfPlan prosp_plan:plan_13 .
 
 prosp_plan:var_49 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "[Device] Eppendorf Centrifuge"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_56 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "EtOH (Ethanol)"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_21 .
+    ep-plan:isElementOfPlan prosp_plan:plan_14 .
 
 prosp_plan:var_58 a obo:PATO_0000918,
         ep-plan:Variable ;
     rdfs:label "4ml"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_21 .
+    ep-plan:isElementOfPlan prosp_plan:plan_14 .
 
 prosp_plan:var_59 a ep-plan:Variable ;
     rdfs:label "37°C"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_21 .
+    ep-plan:isElementOfPlan prosp_plan:plan_14 .
 
 prosp_plan:var_60 a ep-plan:Variable ;
     rdfs:label "0.3 ml"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15 .
 
 prosp_plan:var_61 a ep-plan:Variable ;
     rdfs:label "0.2 ml"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_23 .
+    ep-plan:isElementOfPlan prosp_plan:plan_16 .
 
 prosp_plan:var_62 a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857,
         ep-plan:Variable ;
     rdfs:label "2 h"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
 prosp_plan:var_63 a obo:PATO_0000146,
         ep-plan:Variable ;
     rdfs:label "37°C"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
 prosp_plan:var_64 a exact2:Class_83,
         ep-plan:Variable ;
     rdfs:label "5% CO2"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
 prosp_plan:var_65 a obo:PATO_0000918,
         ep-plan:Variable ;
     rdfs:label "target volume 7 ml"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
 prosp_plan:var_66 a obo:PATO_0000356,
         ep-plan:Variable ;
     rdfs:label "50%"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
 prosp_plan:var_67 a obo:PATO_0000356,
         ep-plan:Variable ;
     rdfs:label "50%"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
 prosp_plan:var_72 a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857,
         ep-plan:Variable ;
     rdfs:label "30min"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_29 .
+    ep-plan:isElementOfPlan prosp_plan:plan_19 .
 
 prosp_plan:var_73 a obo:PATO_0000146,
         ep-plan:Variable ;
     rdfs:label "37°C"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_29 .
+    ep-plan:isElementOfPlan prosp_plan:plan_19 .
 
 exact2:Class_57 a owl:Class ;
     rdfs:label "resuspend"^^xsd:string ;
@@ -2627,114 +2645,72 @@ obo:BFO_0000040 rdfs:subClassOf exact2:OWLClass_8029e3a4_312f_4130_827e_d330da19
 
 obo:PATO_0000819 rdfs:subClassOf exact2:OWLClass_8029e3a4_312f_4130_827e_d330da199ea9 .
 
-prosp_plan:mstep_10 a ep-plan:MultiStep ;
-    rdf:description "count cells with [Device] CASY cell counter and calculate 1,000,000 cells per ml for approach:"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_18,
-        prosp_plan:plan_19 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 ;
-    ep-plan:isPrecededBy prosp_plan:mstep_9 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
-
-prosp_plan:mstep_14 a ep-plan:MultiStep ;
-    rdf:description "wash cells with Washing solution PBS without Ca/Mg: add PBS, swing, directly suction fluid"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_24,
-        prosp_plan:plan_25 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 ;
-    ep-plan:isPrecededBy prosp_plan:step_41 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 .
-
-prosp_plan:mstep_15 a ep-plan:MultiStep ;
-    rdf:description "add 35µl [Indicator] Fluo-3/AM (make sure it is dark, no ambient light) and swing!!!"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_26,
-        prosp_plan:plan_27 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 ;
-    ep-plan:isPrecededBy prosp_plan:step_45 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 .
-
-prosp_plan:mstep_16 a ep-plan:MultiStep ;
-    rdf:description "add 1ml staining solution to each well and incubate 30min in  at 37°C"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_28,
-        prosp_plan:plan_29 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 ;
-    ep-plan:isPrecededBy prosp_plan:mstep_15 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 .
-
-prosp_plan:mstep_5 a ep-plan:MultiStep ;
-    rdf:description "Approach 2 - DMEM cultivation and Fluo-3 staining"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_8,
-        prosp_plan:plan_9 ;
+prosp_plan:mstep_1 a ep-plan:MultiStep ;
+    rdfs:label "Preparation"^^xsd:string ;
+    rdf:description "Preparation of the Experiment"^^xsd:string ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_3 ;
     ep-plan:isElementOfPlan prosp_plan:plan_1,
         prosp_plan:plan_2 ;
-    ep-plan:isPrecededBy prosp_plan:mstep_1 ;
     ep-plan:isStepOfPlan prosp_plan:plan_1,
         prosp_plan:plan_2 .
 
-prosp_plan:mstep_5alternative_in_v2__1 a ep-plan:MultiStep ;
-    rdf:description "Approach 2 - DMEM cultivation and Fluo-3 staining"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_10,
-        prosp_plan:plan_11 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_1,
-        prosp_plan:plan_2 ;
-    ep-plan:isPrecededBy prosp_plan:mstep_1 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_1,
-        prosp_plan:plan_2 .
+prosp_plan:mstep_17 a ep-plan:MultiStep ;
+    rdf:description "remove staining solution and add 2ml isotonic HEPES buffered saline"^^xsd:string ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_20 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 ;
+    ep-plan:isPrecededBy prosp_plan:mstep_16 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
 prosp_plan:mstep_6 a ep-plan:MultiStep ;
     rdf:description "wash cells with [Washing solution] PBS without Ca/Mg (#D8537-500ml, LOT RNBH6741) in T75: add PBS, swing T75, directly suction fluid"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_12 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_9 ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_9 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_7 ;
     ep-plan:isPrecededBy prosp_plan:step_7 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_9 .
+    ep-plan:isStepOfPlan prosp_plan:plan_7 .
 
-prosp_plan:mstep_9 a ep-plan:MultiStep ;
-    rdf:description "take out 100µl of cell suspension into cup of [Device] CASY cell counter with buffer"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_16,
-        prosp_plan:plan_17 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 ;
-    ep-plan:isPrecededBy prosp_plan:step_26 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+prosp_plan:mstep_8 a ep-plan:MultiStep ;
+    rdf:description "prepare [Device] Mobini chamber:"^^xsd:string ;
+    ep-plan:isDecomposedAsPlan prosp_plan:plan_11 ;
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 ;
+    ep-plan:isPrecededBy prosp_plan:step_16,
+        prosp_plan:step_17 ;
+    ep-plan:isStepOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_40 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "cup of [Device] CASY cell counter with buffer"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_17,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_12,
+        prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_42 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "100µl of cell suspension"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_17 .
+    ep-plan:isElementOfPlan prosp_plan:plan_12 .
 
 prosp_plan:var_43 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "cup of [Device] CASY cell counter with buffer and cell solution"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_17,
-        prosp_plan:plan_19 .
+    ep-plan:isElementOfPlan prosp_plan:plan_12,
+        prosp_plan:plan_13 .
 
 prosp_plan:var_46 a obo:PATO_0000918,
         ep-plan:Variable ;
     rdfs:label "Calculated Volume"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_19,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_13,
+        prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_68 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "7ml: 50% isotonic HEPES buffered saline + 50% hypotonic HEPES buffered saline"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23,
-        prosp_plan:plan_27 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16,
+        prosp_plan:plan_18 .
 
 exact2:Class_121 a owl:Class ;
     rdfs:label "alert message"^^xsd:string ;
@@ -2772,84 +2748,53 @@ exact2:recover_yeast a exact2:Class_14,
 
 obo:PATO_0000356 rdfs:subClassOf obo:PATO_0000819 .
 
-prosp_plan:mstep_1 a ep-plan:MultiStep ;
-    rdfs:label "Preparation"^^xsd:string ;
-    rdf:description "Preparation of the Experiment"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_3,
-        prosp_plan:plan_4 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_1,
-        prosp_plan:plan_2 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_1,
-        prosp_plan:plan_2 .
-
-prosp_plan:mstep_17 a ep-plan:MultiStep ;
-    rdf:description "remove staining solution and add 2ml isotonic HEPES buffered saline"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_30,
-        prosp_plan:plan_31 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 ;
-    ep-plan:isPrecededBy prosp_plan:mstep_16 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23 .
-
-prosp_plan:mstep_8 a ep-plan:MultiStep ;
-    rdf:description "prepare [Device] Mobini chamber:"^^xsd:string ;
-    ep-plan:isDecomposedAsPlan prosp_plan:plan_14,
-        prosp_plan:plan_15 ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 ;
-    ep-plan:isPrecededBy prosp_plan:step_16,
-        prosp_plan:step_17 ;
-    ep-plan:isStepOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
-
 prosp_plan:var_11 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "[Nucleotide] ATP "^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_7 .
+    ep-plan:isElementOfPlan prosp_plan:plan_6 .
 
 prosp_plan:var_23 a exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857,
         ep-plan:Variable ;
     rdfs:label "5 min"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_24 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "[Device] SANYO CO2 Incubator"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_35 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "10ml Tube"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_5 a obo:PATO_0000146,
         ep-plan:Variable ;
     rdfs:label "37°C"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_5,
-        prosp_plan:plan_6 .
+    ep-plan:isElementOfPlan prosp_plan:plan_4,
+        prosp_plan:plan_5 .
 
 prosp_plan:var_75 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "Confocal Laser scanning microscope"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15 .
 
 prosp_plan:var_76 a obo:PATO_0000001,
         ep-plan:Variable ;
     rdfs:label "Stimulus"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15 .
 
 prosp_plan:var_77 a obo:PATO_0000001,
         ep-plan:Variable ;
     rdfs:label "Gain (master))"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15 .
 
 prosp_plan:var_80 a ep-plan:Variable ;
     rdfs:label "analysis software"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15 .
 
 <http://www.owl-ontologies.com/Ontology1184060740.owl> a owl:Ontology ;
     owl:imports <http://ontofox.hegroup.org/cuq3yg8u.owl>,
@@ -2881,19 +2826,19 @@ exact2:store_longer a exact2:Class_14,
 prosp_plan:var_1 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "fridge"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_5,
-        prosp_plan:plan_6 .
+    ep-plan:isElementOfPlan prosp_plan:plan_4,
+        prosp_plan:plan_5 .
 
 prosp_plan:var_12 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "[Indicator] Fluo-3/AM (make sure this warmed up in dark, no ambient light)"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_7 .
+    ep-plan:isElementOfPlan prosp_plan:plan_6 .
 
 prosp_plan:var_70 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "Buffer mix with staining solution"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_27,
-        prosp_plan:plan_29 .
+    ep-plan:isElementOfPlan prosp_plan:plan_18,
+        prosp_plan:plan_19 .
 
 exact2:Class_49 a owl:Class ;
     rdfs:label "incubate"^^xsd:string ;
@@ -2924,15 +2869,15 @@ exact2:prevent_condensation_build_up a exact2:Class_14,
 prosp_plan:var_22 a obo:PATO_0000146,
         ep-plan:Variable ;
     rdfs:label "37°C"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_3 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "hypotonic HEPES buffered saline"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23,
-        prosp_plan:plan_5 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16,
+        prosp_plan:plan_4 .
 
 exact2:Class_122 a owl:Class ;
     rdfs:label "caution"^^xsd:string ;
@@ -2979,79 +2924,84 @@ Reference: Based on  WordNet: http://www.cogsci.princeton.edu/cgi-bin/webwn2.0?s
 exact2:prevent_drying_of_YPD_agar a exact2:Class_14,
         owl:NamedIndividual .
 
-prosp_plan:plan_27 a ep-plan:Plan ;
+prosp_plan:plan_18 a ep-plan:Plan ;
     ep-plan:decomposesMultiStep prosp_plan:mstep_15 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_23 .
+    ep-plan:isSubPlanOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
 prosp_plan:var_2 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "isotonic HEPES buffered saline"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_22,
-        prosp_plan:plan_23,
-        prosp_plan:plan_31,
-        prosp_plan:plan_5 .
+    ep-plan:isElementOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16,
+        prosp_plan:plan_20,
+        prosp_plan:plan_4 .
 
 prosp_plan:var_7 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "Culture medium and serum: 89% [Culture Medium] DMEM + 10% [Serum] FCS + 1% [Antibiotic] Gentamicin (Attributed to Petra Seidel)"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_6,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_5,
+        prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_8 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "[Enzyme] Trypsin/EDTA "^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_6,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_5,
+        prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_9 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "[culture medium] DMEM without phenolred, pyruvate + 10% [Serum] FCS + 1% [Antibiotic] Gentamicin (Attributed to MGe)"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_21,
-        prosp_plan:plan_6,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_14,
+        prosp_plan:plan_5,
+        prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
-prosp_plan:plan_12 a ep-plan:Plan ;
-    ep-plan:decomposesMultiStep prosp_plan:mstep_6 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_9 .
-
-prosp_plan:plan_19 a ep-plan:Plan ;
+prosp_plan:plan_13 a ep-plan:Plan ;
     ep-plan:decomposesMultiStep prosp_plan:mstep_10 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_11 .
+    ep-plan:isSubPlanOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
-prosp_plan:plan_7 a ep-plan:Plan ;
+prosp_plan:plan_6 a ep-plan:Plan ;
     ep-plan:decomposesMultiStep prosp_plan:mstep_4 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_4 .
+    ep-plan:isSubPlanOfPlan prosp_plan:plan_3 .
+
+prosp_plan:plan_9 a ep-plan:Plan ;
+    ep-plan:decomposesMultiStep prosp_plan:mstep_6 ;
+    ep-plan:isSubPlanOfPlan prosp_plan:plan_7 .
 
 exact2:OWLClass_8029e3a4_312f_4130_827e_d330da199ea9 a owl:Class ;
     rdfs:label "descriptor of experimental action"@en ;
     rdfs:comment "essential information about the experimental action. The experimental action can not be performed adequately without such essential information." .
 
-prosp_plan:plan_17 a ep-plan:Plan ;
+prosp_plan:plan_12 a ep-plan:Plan ;
     ep-plan:decomposesMultiStep prosp_plan:mstep_9 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_11 .
+    ep-plan:isSubPlanOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
+
+prosp_plan:plan_3 a ep-plan:Plan ;
+    ep-plan:decomposesMultiStep prosp_plan:mstep_1 ;
+    ep-plan:isSubPlanOfPlan prosp_plan:plan_1,
+        prosp_plan:plan_2 .
 
 prosp_plan:plan_4 a ep-plan:Plan ;
-    ep-plan:decomposesMultiStep prosp_plan:mstep_1 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_2 .
+    ep-plan:decomposesMultiStep prosp_plan:mstep_2 ;
+    ep-plan:isSubPlanOfPlan prosp_plan:plan_3 .
 
 prosp_plan:plan_5 a ep-plan:Plan ;
-    ep-plan:decomposesMultiStep prosp_plan:mstep_2 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_4 .
-
-prosp_plan:plan_6 a ep-plan:Plan ;
     ep-plan:decomposesMultiStep prosp_plan:mstep_3 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_4 .
+    ep-plan:isSubPlanOfPlan prosp_plan:plan_3 .
 
-prosp_plan:plan_13 a ep-plan:Plan ;
+prosp_plan:plan_10 a ep-plan:Plan ;
     ep-plan:decomposesMultiStep prosp_plan:mstep_7 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_11 .
+    ep-plan:isSubPlanOfPlan prosp_plan:plan_8 .
 
-prosp_plan:plan_15 a ep-plan:Plan ;
+prosp_plan:plan_11 a ep-plan:Plan ;
     ep-plan:decomposesMultiStep prosp_plan:mstep_8 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_11 .
+    ep-plan:isSubPlanOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:plan_2 a ep-plan:Plan ;
     rdfs:label "Prospecive Protocol Example"^^xsd:string ;
@@ -3062,7 +3012,7 @@ prosp_plan:plan_2 a ep-plan:Plan ;
     dct:hasVersion [ a obo:IAO_0000129,
                 exact2:OWLClass_870d9f06_a65a_415d_b7cc_e1dbbbcc9b2c ;
             rdfs:label "0.2.0"^^xsd:string ] ;
-    dct:identifier "7J8u512w"^^xsd:string ;
+    dct:identifier "b8pLrp0C"^^xsd:string ;
     prov:wasDerivedFrom prosp_plan:plan_1 ;
     ep-plan:includesObjective [ a ep-plan:Objective ;
             rdfs:label "Intracellular calcium dynamics caused by electric fields - Mobini chamber"^^xsd:string ] .
@@ -3070,11 +3020,11 @@ prosp_plan:plan_2 a ep-plan:Plan ;
 prosp_plan:var_4 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "[Washing solution] PBS without Ca/Mg "^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_12,
-        prosp_plan:plan_13,
-        prosp_plan:plan_15,
-        prosp_plan:plan_25,
-        prosp_plan:plan_5 .
+    ep-plan:isElementOfPlan prosp_plan:plan_10,
+        prosp_plan:plan_11,
+        prosp_plan:plan_17,
+        prosp_plan:plan_4,
+        prosp_plan:plan_9 .
 
 exact2:OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7 a owl:Class ;
     rdfs:label "optional descriptor of experimental action"@en ;
@@ -3095,24 +3045,27 @@ prosp_plan:plan_1 a ep-plan:Plan ;
     dct:hasVersion [ a obo:IAO_0000129,
                 exact2:OWLClass_870d9f06_a65a_415d_b7cc_e1dbbbcc9b2c ;
             rdfs:label "0.1.0"^^xsd:string ] ;
-    dct:identifier "7J8u512w"^^xsd:string ;
+    dct:identifier "b8pLrp0C"^^xsd:string ;
     ep-plan:includesObjective [ a ep-plan:Objective ;
             rdfs:label "Intracellular calcium dynamics caused by electric fields - Mobini chamber"^^xsd:string ] .
 
-prosp_plan:plan_31 a ep-plan:Plan ;
+prosp_plan:plan_20 a ep-plan:Plan ;
     ep-plan:decomposesMultiStep prosp_plan:mstep_17 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_23 .
+    ep-plan:isSubPlanOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
 exact2:OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b a owl:Class ;
     rdfs:label "deprecated entity"@en .
 
-prosp_plan:plan_25 a ep-plan:Plan ;
+prosp_plan:plan_17 a ep-plan:Plan ;
     ep-plan:decomposesMultiStep prosp_plan:mstep_14 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_23 .
+    ep-plan:isSubPlanOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
-prosp_plan:plan_29 a ep-plan:Plan ;
+prosp_plan:plan_19 a ep-plan:Plan ;
     ep-plan:decomposesMultiStep prosp_plan:mstep_16 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_23 .
+    ep-plan:isSubPlanOfPlan prosp_plan:plan_15,
+        prosp_plan:plan_16 .
 
 exact2:Class_9 a owl:Class ;
     rdfs:label "add"^^xsd:string ;
@@ -3135,44 +3088,45 @@ exact2:OWLObjectProperty_9bb6095b_b750_4987_ac0c_e5707925fa6a a owl:ObjectProper
 prosp_plan:var_36 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "Tube with cell suspension inside"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_17,
-        prosp_plan:plan_22,
-        prosp_plan:plan_23,
-        prosp_plan:plan_9 .
+    ep-plan:isElementOfPlan prosp_plan:plan_12,
+        prosp_plan:plan_15,
+        prosp_plan:plan_16,
+        prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 exact2:Class_83 a owl:Class ;
     rdfs:label "condition"^^xsd:string ;
     rdfs:comment "A condition is a statement to be checked."^^xsd:string ;
     rdfs:subClassOf exact2:OWLClass_8029e3a4_312f_4130_827e_d330da199ea9 .
 
-prosp_plan:plan_21 a ep-plan:Plan ;
+prosp_plan:plan_14 a ep-plan:Plan ;
     ep-plan:decomposesMultiStep prosp_plan:mstep_11 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_11 .
+    ep-plan:isSubPlanOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_17 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "T25 Flask"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_13 .
+    ep-plan:isElementOfPlan prosp_plan:plan_10,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_18 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "T25 Flask"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_13 .
+    ep-plan:isElementOfPlan prosp_plan:plan_10,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_19 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "T25 Flask"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_13 .
+    ep-plan:isElementOfPlan prosp_plan:plan_10,
+        prosp_plan:plan_8 .
 
 prosp_plan:var_15 a exact2:OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1,
         ep-plan:Variable ;
     rdfs:label "T75 Flask"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_11,
-        prosp_plan:plan_12,
+    ep-plan:isElementOfPlan prosp_plan:plan_7,
+        prosp_plan:plan_8,
         prosp_plan:plan_9 .
 
 exact2:OWLClass_b62a4dfe_b059_4348_a942_31b8f275e857 a owl:Class ;
@@ -3186,62 +3140,62 @@ obo:BFO_0000086 rdfs:subPropertyOf exact2:OWLObjectProperty_9bb6095b_b750_4987_a
 prosp_plan:var_51 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "Well A2"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_21,
-        prosp_plan:plan_22,
-        prosp_plan:plan_23,
-        prosp_plan:plan_25,
-        prosp_plan:plan_29,
-        prosp_plan:plan_31 .
+    ep-plan:isElementOfPlan prosp_plan:plan_14,
+        prosp_plan:plan_15,
+        prosp_plan:plan_16,
+        prosp_plan:plan_17,
+        prosp_plan:plan_19,
+        prosp_plan:plan_20 .
 
 prosp_plan:var_52 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "Well A3"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_21,
-        prosp_plan:plan_22,
-        prosp_plan:plan_23,
-        prosp_plan:plan_25,
-        prosp_plan:plan_29,
-        prosp_plan:plan_31 .
+    ep-plan:isElementOfPlan prosp_plan:plan_14,
+        prosp_plan:plan_15,
+        prosp_plan:plan_16,
+        prosp_plan:plan_17,
+        prosp_plan:plan_19,
+        prosp_plan:plan_20 .
 
 prosp_plan:var_54 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "Well B2"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_21,
-        prosp_plan:plan_22,
-        prosp_plan:plan_23,
-        prosp_plan:plan_25,
-        prosp_plan:plan_29,
-        prosp_plan:plan_31 .
+    ep-plan:isElementOfPlan prosp_plan:plan_14,
+        prosp_plan:plan_15,
+        prosp_plan:plan_16,
+        prosp_plan:plan_17,
+        prosp_plan:plan_19,
+        prosp_plan:plan_20 .
 
 prosp_plan:var_55 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "Well B3"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_21,
-        prosp_plan:plan_22,
-        prosp_plan:plan_23,
-        prosp_plan:plan_25,
-        prosp_plan:plan_29,
-        prosp_plan:plan_31 .
+    ep-plan:isElementOfPlan prosp_plan:plan_14,
+        prosp_plan:plan_15,
+        prosp_plan:plan_16,
+        prosp_plan:plan_17,
+        prosp_plan:plan_19,
+        prosp_plan:plan_20 .
 
 prosp_plan:var_50 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "Well A1"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_21,
-        prosp_plan:plan_22,
-        prosp_plan:plan_23,
-        prosp_plan:plan_25,
-        prosp_plan:plan_29,
-        prosp_plan:plan_31 .
+    ep-plan:isElementOfPlan prosp_plan:plan_14,
+        prosp_plan:plan_15,
+        prosp_plan:plan_16,
+        prosp_plan:plan_17,
+        prosp_plan:plan_19,
+        prosp_plan:plan_20 .
 
 prosp_plan:var_53 a exact2:Class_66,
         ep-plan:Variable ;
     rdfs:label "Well B1"^^xsd:string ;
-    ep-plan:isElementOfPlan prosp_plan:plan_21,
-        prosp_plan:plan_22,
-        prosp_plan:plan_23,
-        prosp_plan:plan_25,
-        prosp_plan:plan_29,
-        prosp_plan:plan_31 .
+    ep-plan:isElementOfPlan prosp_plan:plan_14,
+        prosp_plan:plan_15,
+        prosp_plan:plan_16,
+        prosp_plan:plan_17,
+        prosp_plan:plan_19,
+        prosp_plan:plan_20 .
 
 exact2:OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b a owl:Class ;
     rdfs:label "(optional) equipment"@en ;
@@ -3253,7 +3207,7 @@ exact2:OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f a owl:Class ;
     rdfs:comment "A condition (optional) is a statement to be checked." ;
     rdfs:subClassOf exact2:OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7 .
 
-prosp_plan:plan_23 a ep-plan:Plan ;
+prosp_plan:plan_16 a ep-plan:Plan ;
     ep-plan:decomposesMultiStep prosp_plan:mstep_13 ;
     ep-plan:isSubPlanOfPlan prosp_plan:plan_2 .
 
@@ -3266,17 +3220,19 @@ exact2:Class_66 a owl:Class ;
     rdfs:comment " is the set of tools, devices, materials, computer systems assembled for performing the experiment. Reference: following Collins Softback English Dictionary, HarperCollins Publishers, Glasgow, 1993."^^xsd:string ;
     rdfs:subClassOf obo:BFO_0000040 .
 
-prosp_plan:plan_22 a ep-plan:Plan ;
+prosp_plan:plan_15 a ep-plan:Plan ;
     ep-plan:decomposesMultiStep prosp_plan:mstep_12 ;
     ep-plan:isSubPlanOfPlan prosp_plan:plan_1 .
 
-prosp_plan:plan_9 a ep-plan:Plan ;
+prosp_plan:plan_7 a ep-plan:Plan ;
     ep-plan:decomposesMultiStep prosp_plan:mstep_5 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_2 .
+    ep-plan:isSubPlanOfPlan prosp_plan:plan_1,
+        prosp_plan:plan_2 .
 
-prosp_plan:plan_11 a ep-plan:Plan ;
+prosp_plan:plan_8 a ep-plan:Plan ;
     ep-plan:decomposesMultiStep prosp_plan:mstep_5alternative_in_v2__1 ;
-    ep-plan:isSubPlanOfPlan prosp_plan:plan_2 .
+    ep-plan:isSubPlanOfPlan prosp_plan:plan_1,
+        prosp_plan:plan_2 .
 
 exact2:Class_89 a owl:Class ;
     rdfs:label "experimental action"^^xsd:string ;
